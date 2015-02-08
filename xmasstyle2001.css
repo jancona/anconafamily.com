@@ -1,0 +1,17 @@
+.page { background: white url(images/xmas_bg_2001.jpg); 
+        background-repeat: no-repeat 
+      }
+.Section1 { margin-top: 225px; 
+            margin-bottom: 125px; 
+            margin-left: 50px; 
+            margin-right: 50px; 
+            width: 750px; 
+            height: 750px
+          }
+.Section2 { margin-top: 100px; 
+            margin-bottom: 125px; 
+            margin-left: 50px; 
+            margin-right: 50px; 
+            width: 750px; 
+            height: 925px
+          }

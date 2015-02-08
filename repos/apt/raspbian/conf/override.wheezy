@@ -1,0 +1,12 @@
+dvbhdhomerun-dkms	Priority	optional
+dvbhdhomerun-dkms	Section		misc
+dvbhdhomerun-source     Priority        optional
+dvbhdhomerun-source     Section         misc
+dvbhdhomerun-utils      Priority        optional
+dvbhdhomerun-utils      Section         misc
+dvbhdhomerun-utils-dbg  Priority        optional
+dvbhdhomerun-utils-dbg  Section         misc
+tvheadend		Priority	optional
+tvheadend		Section		misc
+tvheadend-dbg           Priority        optional
+tvheadend-dbg           Section         misc

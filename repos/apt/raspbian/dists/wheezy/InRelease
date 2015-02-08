@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Origin: Jim Ancona's Raspbian Packages
+Label: Jim Ancona's Raspbian Packages
+Codename: wheezy
+Date: Tue, 14 Oct 2014 02:12:36 UTC
+Architectures: armhf
+Components: main
+Description: Apt repository for miscellaneous Raspbian packages
+MD5Sum:
+ c50a9d19c2f7c1b3a0353b5d5d483fc5 37804 main/binary-armhf/Packages
+ 4bf0854e653f6c91c716299d8f7e32ba 9096 main/binary-armhf/Packages.gz
+ eddea297350c7110dbfe72fc2f6cff89 177 main/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ d5607a97dada05ee1a363af683c372e2 178 main/source/Release
+SHA1:
+ 2663f4217bc684539b93830bb47dd77f6acf17e8 37804 main/binary-armhf/Packages
+ b23a97b8a1c9335135e8d6afa557cb892e0e0823 9096 main/binary-armhf/Packages.gz
+ f33993d7747a3facc6e8aa5c14c6e7182344931c 177 main/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ fa902bef60339cba0e319ec68168ad1d6ba35d95 178 main/source/Release
+SHA256:
+ 277edba7be735f88c0ab0ae434b8fc3987bbc471f3e920e1fda55b68a03cdfce 37804 main/binary-armhf/Packages
+ baf5d98cfa0ee42c2a9ced5bd95c281c9f4b2631bd56e1604ea299e607fcc3f5 9096 main/binary-armhf/Packages.gz
+ 09c121f4455cd7103ae13153e6fcee58a714163183a0da0f3cd655c90b1a08be 177 main/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 05bb27ba76f4ce53e184f7ca56bdaab268afa3ba4accad6ad4f9cb12e2efa8ec 178 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJUPIacAAoJEHGCxVL66c6lH+MH/j8+scxiGQekhP3mPqjVwF4x
+/uKxuY15lQaniu5+8W9NQmN7fSeiMl0ytwmY19eczjz9FKTdwM7Oe3DsLrt8fmqw
+SjNmuc/TJWDoIg1UgbTm6o0QA73p4FUCUc1p9ouqwUkJEre4y/IM5g409wR3ed9t
+v7GvthnsKd1t0IBUqRepsHwbIdIy0hAgzNNwu6bgtmJl6LU6mlpCFgtkbtEJXsOm
+iXDldk8P/tSUgXim650f7iOfwcv9UoiyDYIO85MUi62asR3DRdFrMEQdTxzeHTF1
+0lYTd/Vsxc0c5J5Tx3zYpA9khkJyjyfpLgd9zVmpHoK6lPb9L8ijSca4tkyKIcM=
+=/fl6
+-----END PGP SIGNATURE-----

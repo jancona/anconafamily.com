@@ -1,0 +1,871 @@
+Package: dvbhdhomerun-dkms
+Source: dvbhdhomerun
+Version: 0.0.14-1
+Architecture: all
+Maintainer: Villy Thomsen <tfylliv@gmail.com>
+Installed-Size: 96
+Depends: dkms, build-essential, debhelper (>= 7), make, bzip2, linux-headers-generic | linux-headers
+Homepage: http://sourceforge.net/projects/dvbhdhomerun
+Priority: optional
+Section: misc
+Filename: pool/main/d/dvbhdhomerun/dvbhdhomerun-dkms_0.0.14-1_all.deb
+Size: 16752
+SHA256: 0b38e6d135661d8555ee48cf67ad1c4bc15c6119845695066aa15a433a87eeed
+SHA1: 46e14914676fe1419c70024cf2f1ea15726a6279
+MD5sum: 01ea0c1420f17108076b85913cb1084a
+Description: Source for the dvbhdhomerun kernel driver.
+ This package provides the source code for the dvbhdhomerun kernel modules, to
+ be build with dkms. The dvbhdhomerun-utils package is required in order to make
+ use of these modules. Kernel source or headers are required to compile these
+ modules.
+
+Package: dvbhdhomerun-source
+Source: dvbhdhomerun
+Version: 0.0.14-1
+Architecture: all
+Maintainer: Villy Thomsen <tfylliv@gmail.com>
+Installed-Size: 47
+Depends: module-assistant, build-essential, debhelper (>= 7), make, bzip2, linux-headers-generic | linux-headers
+Homepage: http://sourceforge.net/projects/dvbhdhomerun
+Priority: optional
+Section: misc
+Filename: pool/main/d/dvbhdhomerun/dvbhdhomerun-source_0.0.14-1_all.deb
+Size: 17886
+SHA256: 4e4fa7d09a8c8424e90f1520f8e8d0b20d52375dabd2b0932766f4733cf57ce6
+SHA1: 22b2c99a40a6263f290b1196aa7841283a145fce
+MD5sum: 7440ffadb00606cb8cd1092203e1f8ed
+Description: Source for the dvbhdhomerun kernel driver.
+ This package provides the source code for the dvbhdhomerun kernel modules, to
+ be build with module-assistant. The dvbhdhomerun-utils package is required in
+ order to make use of these modules. Kernel source or headers are required to
+ compile these modules.
+
+Package: dvbhdhomerun-utils
+Source: dvbhdhomerun
+Version: 0.0.14-1
+Architecture: armhf
+Maintainer: Villy Thomsen <tfylliv@gmail.com>
+Installed-Size: 220
+Depends: libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.4.0), dvbhdhomerun-dkms | dvbhdhomerun-source
+Homepage: http://sourceforge.net/projects/dvbhdhomerun
+Priority: optional
+Section: misc
+Filename: pool/main/d/dvbhdhomerun/dvbhdhomerun-utils_0.0.14-1_armhf.deb
+Size: 51636
+SHA256: f19ca4d581734f3a554266a23d0d6fb99398d116e0f02b5454a5918db516bec1
+SHA1: d4d469a2487a85d8d079c83b7604254b5c6952fd
+MD5sum: 6864e6a0496a3ef01b9e2cc26e50537e
+Description: User space application that talks with the HDHomeRun.
+ The user space daemon communicates with the kernel driver in order to
+ get requests from DVB applications. Feeds those requests to the
+ HDHomeRun via SiliconDusts open source library.
+
+Package: dvbhdhomerun-utils-dbg
+Source: dvbhdhomerun
+Version: 0.0.14-1
+Architecture: armhf
+Maintainer: Villy Thomsen <tfylliv@gmail.com>
+Installed-Size: 484
+Depends: dvbhdhomerun-utils
+Homepage: http://sourceforge.net/projects/dvbhdhomerun
+Priority: optional
+Section: misc
+Filename: pool/main/d/dvbhdhomerun/dvbhdhomerun-utils-dbg_0.0.14-1_armhf.deb
+Size: 148612
+SHA256: b37b424a98146c2ed2fd84c7ba4c0ff46fbddaf98bd433804fe32f0c6ab8bca2
+SHA1: 5f1d4f6bdc08be3fba45524eb94c2024f101409c
+MD5sum: 882cbbd61dd5a566eb276d1510bf5d27
+Description: Debug symbols for the userhdhomerun application.
+
+Package: faac
+Version: 1:1.28-dmo3
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 70
+Depends: libc6 (>= 2.7), libfaac0, libmp4v2-2
+Homepage: http://www.audiocoding.com/
+Priority: optional
+Section: sound
+Filename: pool/main/f/faac/faac_1.28-dmo3_armhf.deb
+Size: 18708
+SHA256: 91ccbe643a82e1f8b93d0524edfd71c80f6273b24b9bcc4c7a91ca7b800bbce5
+SHA1: 41036edb6eeadf8ff92d1ed8904f1da691ff670e
+MD5sum: 933e6715475fc48ecfc48312af22230b
+Description: AAC audio encoder.
+ FAAC currently supports MPEG-4 LTP, MAIN and LOW COMPLEXITY object types
+ and MAIN and LOW MPEG-2 object types. It also supports multichannel and
+ gapless encoding.
+
+Package: libcec1
+Version: 1.8.1-dmo3
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 483
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), liblockdev1, libstdc++6 (>= 4.3.0), libudev0 (>= 0.140)
+Multi-Arch: same
+Homepage: http://libcec.pulse-eight.com/
+Priority: optional
+Section: libs
+Filename: pool/main/libc/libcec1/libcec1_1.8.1-dmo3_armhf.deb
+Size: 135792
+SHA256: 02eafc07bf3c1a9f04acd3e3e366975480b13817c47e39499e05517e12cc2427
+SHA1: 24ff03680e6a87bd79bf5660d818aa68a80977e6
+MD5sum: 11a058aeb58562372d503ab153d09342
+Description: USB CEC Adaptor communication Library (shared library)
+ This library provides support for the Pulse-Eight USB-CEC adapter.
+ .
+ This package provides the shared library.
+
+Package: libcec1-dev
+Source: libcec1
+Version: 1.8.1-dmo3
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 1145
+Depends: libcec1 (= 1.8.1-dmo3)
+Conflicts: libcec-dev
+Replaces: libcec-dev
+Homepage: http://libcec.pulse-eight.com/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libc/libcec1/libcec1-dev_1.8.1-dmo3_armhf.deb
+Size: 185958
+SHA256: e86c0252c74704369fa09f2243c819801ce12b0848cd8393a98bf8b3674160ea
+SHA1: d820493b6b9dec09fc55023cea54d37d11144c8d
+MD5sum: 6f04ee4283551b68109c7658aaddc7ef
+Description: USB CEC Adaptor communication Library (development files)
+ This library provides support for the Pulse-Eight USB-CEC adapter.
+ .
+ This package provides the necessary files needed for development.
+
+Package: libfaac-dev
+Source: faac
+Version: 1:1.28-dmo3
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 121
+Depends: libfaac0 (= 1:1.28-dmo3)
+Multi-Arch: same
+Homepage: http://www.audiocoding.com/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/faac/libfaac-dev_1.28-dmo3_armhf.deb
+Size: 42170
+SHA256: 9a667dc4fa1a095965c99f7ae37ba72a094edbf8a4820b9cb9647d7d47409676
+SHA1: c3040b532c9f666e76899a0afd522b40fa00849e
+MD5sum: 4cbe6613e790163dbfcab5c4438c409a
+Description: AAC audio encoder - devel files.
+ FAAC currently supports MPEG-4 LTP, MAIN and LOW COMPLEXITY object types
+ and MAIN and LOW MPEG-2 object types. It also supports multichannel and
+ gapless encoding.
+
+Package: libfaac0
+Source: faac
+Version: 1:1.28-dmo3
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 102
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4)
+Multi-Arch: same
+Homepage: http://www.audiocoding.com/
+Priority: optional
+Section: libs
+Filename: pool/main/f/faac/libfaac0_1.28-dmo3_armhf.deb
+Size: 39612
+SHA256: 7342d31b03f0a8d27849babc62658995c6cf9a86552eec9baefa4e9070d21673
+SHA1: 59fce2c3b651c1cac9a56cd340473cbf4875869e
+MD5sum: a7916956d060e460a17f1cfdd9db5c69
+Description: AAC audio encoder - library files.
+ FAAC currently supports MPEG-4 LTP, MAIN and LOW COMPLEXITY object types
+ and MAIN and LOW MPEG-2 object types. It also supports multichannel and
+ gapless encoding.
+
+Package: libmyth-0.26-0
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 18081
+Depends: libasound2 (>= 1.0.16), libass4 (>= 0.9.11), libavahi-compat-libdnssd1 (>= 0.6.16), libavc1394-0 (>= 0.5.3), libc6 (>= 2.13-28), libfftw3-3, libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.4.0), libgl1-mesa-glx | libgl1, libiec61883-0 (>= 1.2.0), libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, libmp3lame0, libmythavcodec54 (>= 0.26.0+fixes20130228), libmythavformat54 (>= 0.26.0+fixes20130228), libmythavutil51 (>= 0.26.0+fixes20130228), libmythqjson0 (>= 0.26.0+fixes20130228), libmythswscale2 (>= 0.26.0+fixes20130228), libpulse0 (>= 0.99.1), libqt4-dbus (>= 4:4.5.3), libqt4-network (>= 4:4.5.3), libqt4-opengl (>= 4:4.7.2), libqt4-script (>= 4:4.5.3), libqt4-sql (>= 4:4.5.3), libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libqtwebkit4 (>= 2.1.0~2011week13), libraw1394-11, libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.6), libuuid1 (>= 2.16), libva-glx1, libva-x11-1 (>> 1.0.15~), libva1 (>> 1.0.15~), libvdpau1 (>= 0.2), libx11-6 (>= 2:1.4.99.1), libxext6, libxinerama1, libxml2 (>= 2.7.4), libxrandr2 (>= 4.3), libxv1, libxxf86vm1, zlib1g (>= 1:1.1.4), libqt4-sql-mysql, procps, iputils-ping, udisks
+Conflicts: libmyth-0.21, mythtv (<< 0.7-5)
+Replaces: libmyth-0.21, mythtv (<< 0.7-5), mythtv-frontend (<= 0.26.0-dmo7)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmyth-0.26-0_0.26.0+fixes20130228-dmo1_armhf.deb
+Size: 5910630
+SHA256: 4679369cf510b6486a379773636dea8becb56376c09dd2b61325bfe40c0c2013
+SHA1: b19c76ec5587712787632d88f0abbcf5ef8ee8f4
+MD5sum: 5ac6aa62a6e9fc9822f04ee4fe900ddf
+Description: Common library code for MythTV and add-on modules (runtime).
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ The powerpc packages were compiled with altivec and sparc packages with
+ ultra-sparc support.
+ .
+ This package contains a shared library, libmyth, which is used by various
+ components in the system.
+
+Package: libmyth-dev
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 2336
+Depends: libmyth-0.26-0 (= 0.26.0+fixes20130228-dmo1)
+Conflicts: libmyth-0.20-dev
+Replaces: libmyth-0.20-dev
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mythtv-dmo/libmyth-dev_0.26.0+fixes20130228-dmo1_armhf.deb
+Size: 353782
+SHA256: e727e2f759dabfd2c259831b107ff5cce8f46d0cdf45402f2904df7b6184d22a
+SHA1: 0549dcad8bf5f98bd793f3ce482b91cc5330cf55
+MD5sum: 3b5a282f180cda4c13c342f2883932ec
+Description: Common library code for MythTV and add-on modules (development).
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ This package contains files needed for developing applications which use
+ libmyth (such as the various add-ons for MythTV)
+
+Package: libmythavcodec54
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 6419
+Depends: libc6 (>= 2.13-28), libfaac0, libgcc1 (>= 1:4.4.0), libmp3lame0, libmythavutil51 (>= 0.26.0+fixes20130228), libva1 (>> 1.0.15~), libvpx1 (>= 1.0.0), libx264-123, libxvidcore4 (>= 1.2.2), zlib1g (>= 1:1.2.0)
+Conflicts: libmyth-0.24-0 (<= 0.24-0.6)
+Replaces: libmyth-0.24-0 (<= 0.24-0.6)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythavcodec54_0.26.0+fixes20130228-dmo1_armhf.deb
+Size: 2528326
+SHA256: 22f0b81de2d0a8d4e718d2a7347b61f53a6b1123f0b1ab1730cf015f92545d24
+SHA1: 6bbf7b2ead2124ebca7eba89e3cc3f462ba72beb
+MD5sum: 222f39c63fafdae6d3b730dfff29cf03
+Description: libavcodec package for MythTV.
+ This package is only used by MythTV packages.
+
+Package: libmythavdevice54
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 109
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, libmythavcodec54 (>= 0.26.0+fixes20130228), libmythavfilter2 (>= 0.26.0+fixes20130228), libmythavformat54 (>= 0.26.0+fixes20130228), libmythavutil51 (>= 0.26.0+fixes20130228)
+Conflicts: libmyth-0.24-0 (<= 0.24-0.6)
+Replaces: libmyth-0.24-0 (<= 0.24-0.6)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythavdevice54_0.26.0+fixes20130228-dmo1_armhf.deb
+Size: 46904
+SHA256: 06fa4264f79b7794b796797cdba3a3581677db2f4a4b8cd300149c3f43808542
+SHA1: acaca18e9bae1fd125aa6f5bd1ffad7faba858b2
+MD5sum: 309cf9bc181cb68a29613e1724e93dd2
+Description: libavdevice package for MythTV.
+ This package is only used by MythTV packages.
+
+Package: libmythavfilter2
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 511
+Depends: libass4 (>= 0.9.7), libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libmythavcodec54 (>= 0.26.0+fixes20130228), libmythavformat54 (>= 0.26.0+fixes20130228), libmythavutil51 (>= 0.26.0+fixes20130228), libmythpostproc52 (>= 0.26.0+fixes20130228), libmythswresample0 (>= 0.26.0+fixes20130228), libmythswscale2 (>= 0.26.0+fixes20130228)
+Conflicts: libmyth-0.24-0 (<= 0.24-0.6)
+Replaces: libmyth-0.24-0 (<= 0.24-0.6)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythavfilter2_0.26.0+fixes20130228-dmo1_armhf.deb
+Size: 203858
+SHA256: 58dc947d9bc309ffe711ca245ff41d87c19fcae6792d55d04bcbd5ad1e1929c5
+SHA1: c436907fdafb1c7ea19ac19227f3e1e1d20e3990
+MD5sum: cffa5c210aa72d45cb5a63f3c2510c40
+Description: libavfilter package for MythTV.
+ This package is only used by MythTV packages.
+
+Package: libmythavformat54
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 1075
+Depends: libbz2-1.0, libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libmythavcodec54 (>= 0.26.0+fixes20130228), libmythavutil51 (>= 0.26.0+fixes20130228), zlib1g (>= 1:1.1.4)
+Conflicts: libmyth-0.24-0 (<= 0.24-0.6)
+Replaces: libmyth-0.24-0 (<= 0.24-0.6)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythavformat54_0.26.0+fixes20130228-dmo1_armhf.deb
+Size: 448268
+SHA256: 2bbc4dd48675b52197b7f8cbbda96049912d804e34d9355da570a53e709362dc
+SHA1: 68d1448de2c062cf187e000aa274cda00912a940
+MD5sum: 85f887357d60b6694376d09f49657fd3
+Description: libavformat package for MythTV.
+ This package is only used by MythTV packages.
+
+Package: libmythavutil51
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 176
+Depends: libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0)
+Conflicts: libmyth-0.24-0 (<= 0.24-0.6)
+Replaces: libmyth-0.24-0 (<= 0.24-0.6)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythavutil51_0.26.0+fixes20130228-dmo1_armhf.deb
+Size: 78696
+SHA256: 434cacb34b84d6fb69f072b0a3e8f6b95488f5ec55e22c38cae0dfa8e3190850
+SHA1: 7107a329825bedc5d0dc3fd68974d4d070036ab3
+MD5sum: 4048e24b917b2d60fd020ace5adb48b1
+Description: libavutil package for MythTV.
+ This package is only used by MythTV packages.
+
+Package: libmythpostproc52
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 124
+Depends: libc6 (>= 2.13-28), libmythavutil51 (>= 0.26.0+fixes20130228)
+Conflicts: libmyth-0.24-0 (<= 0.24-0.6)
+Replaces: libmyth-0.24-0 (<= 0.24-0.6)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythpostproc52_0.26.0+fixes20130228-dmo1_armhf.deb
+Size: 49702
+SHA256: be14c94ef26ee3f46b3eb61aed97f6ab03c2954b6b237fa1392e547a4ba8c72b
+SHA1: 45276dc16f9bc6999b7696a9c81b58fbd4c9778f
+MD5sum: 875bfb60dbc24d9184ecf869ab3d1a56
+Description: libpostproc package for MythTV.
+ This package is only used by MythTV packages.
+
+Package: libmythqjson0
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 181
+Depends: libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libqtcore4 (>= 4:4.7.0~beta1), libstdc++6 (>= 4.4.0)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythqjson0_0.26.0+fixes20130228-dmo1_armhf.deb
+Size: 72482
+SHA256: 563ad293bde927f9bef7bb5dd0733b4b1560261b5c5f115ed49ddd3e1d725b6e
+SHA1: 040814937976b33e64423ec616c9a5e77ab62683
+MD5sum: 9a91f577c5eb139c2d3aaae46e640b23
+Description: swresample package for MythTV.
+ This package is only used by MythTV packages.
+
+Package: libmythswresample0
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 112
+Depends: libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libmythavutil51 (>= 0.26.0+fixes20130228)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythswresample0_0.26.0+fixes20130228-dmo1_armhf.deb
+Size: 49114
+SHA256: 3c86f75da6c260f5a1bf0e422e02e8ea742b65961532f769c06e144eb9b212f9
+SHA1: 5ff3a2b6227d56a34fbc534a08137966806cb443
+MD5sum: 023dc75ce7e0190c660dc6074bcf93cb
+Description: swresample package for MythTV.
+ This package is only used by MythTV packages.
+
+Package: libmythswscale2
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 236
+Depends: libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libmythavutil51 (>= 0.26.0+fixes20130228)
+Conflicts: libmyth-0.24-0 (<= 0.24-0.6)
+Replaces: libmyth-0.24-0 (<= 0.24-0.6)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythswscale2_0.26.0+fixes20130228-dmo1_armhf.deb
+Size: 82736
+SHA256: 79374289947664e0d84c24e4c4014ce7b944556ee2cfe38b22db36e535afbf44
+SHA1: 41ed5bd5a4d18521bbc0218270160f662f13f3fb
+MD5sum: a930cb47b3b25bdbb202dfbc2aec6834
+Description: libswscale package for MythTV.
+ This package is only used by MythTV packages.
+
+Package: libmythtv-perl
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 165
+Depends: perl, libdbi-perl, libdbd-mysql-perl, libwww-perl, libnet-upnp-perl, libio-socket-inet6-perl
+Conflicts: mythtv-perl (<= 0.20.2.svn20071109-0.0)
+Replaces: mythtv-perl (<= 0.20.2.svn20071109-0.0)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: perl
+Filename: pool/main/m/mythtv-dmo/libmythtv-perl_0.26.0+fixes20130228-dmo1_all.deb
+Size: 47034
+SHA256: 18b920895a78edc30b4abaf4c0ce7bc13771de12656d99a5a2867d71137280bc
+SHA1: ee4ee3b5622a55629e74c32ed6312df088343d31
+MD5sum: 426d33164e384c81b88dc703ca3a7533
+Description: Personal video recorder application (common data).
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ This package contains Perl bindings to access mythtv datas.
+
+Package: linux-headers-3.2.27+
+Source: linux-upstream
+Version: 3.2.27+-3
+Architecture: armhf
+Maintainer: Jim Ancona <jim@anconafamily.com>
+Installed-Size: 75453
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-3.2.27+_3.2.27+-3_armhf.deb
+Size: 15964960
+SHA256: 6d9d2f9fc7a57d4d3b96fe963dcb8dcfe47bcf2b49fd4f9862cfc39daaa777b5
+SHA1: 08fab4f044f84a4919609f000f50e4afc79c3165
+MD5sum: 697576b5cdb2ae00487a5eb5aba03dbc
+Description: Linux kernel headers for 3.2.27+ on armhf
+ This package provides kernel header files for 3.2.27+ on armhf
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-3.6.11+
+Source: linux-upstream
+Version: 3.6.11+-4
+Architecture: armhf
+Maintainer: Jim Ancona <jim@anconafamily.com>
+Installed-Size: 78460
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-3.6.11+_3.6.11+-4_armhf.deb
+Size: 16531766
+SHA256: 5b693c14fc40be216e6a35c9ba8e997152188fcc4e13bb010cfd981ca6a6d741
+SHA1: 0f8ac4c3fe701cd74bd07aef9f721cc0703b882d
+MD5sum: 07f770a2413896e58a1c8184663d20f0
+Description: Linux kernel headers for 3.6.11+ on armhf
+ This package provides kernel header files for 3.6.11+ on armhf
+ .
+ This is useful for people who need to build external modules
+
+Package: mythffmpeg
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 197
+Depends: libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libmythavcodec54 (>= 0.26.0+fixes20130228), libmythavdevice54 (>= 0.26.0+fixes20130228), libmythavfilter2 (>= 0.26.0+fixes20130228), libmythavformat54 (>= 0.26.0+fixes20130228), libmythavutil51 (>= 0.26.0+fixes20130228), libmythpostproc52 (>= 0.26.0+fixes20130228), libmythswresample0 (>= 0.26.0+fixes20130228), libmythswscale2 (>= 0.26.0+fixes20130228)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: utils
+Filename: pool/main/m/mythtv-dmo/mythffmpeg_0.26.0+fixes20130228-dmo1_armhf.deb
+Size: 85086
+SHA256: c4a865f7bb3b95585a312529ea335ec5f4bc265afb1e3daf4bb211ab423fed1a
+SHA1: 1efef4e04179bce7e4eef66080738bc084c23378
+MD5sum: 845a477a0c843357e0cba233ebbd7275
+Description: Special ffmpeg version for nuvexport.
+ Special ffmpeg version for nuvexport. This binary is linked against the
+ libmythav* libraries and not libraries in libavc* packages.
+
+Package: mythlogserver
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 103
+Depends: mythtv-common (>= 0.26.0+fixes20130228-dmo1), libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libmyth-0.26-0 (>= 0.26.0+fixes20130228), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.4.0), rsyslog | system-log-daemon
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythtv-dmo/mythlogserver_0.26.0+fixes20130228-dmo1_armhf.deb
+Size: 34602
+SHA256: b216b84dfa42c596dff5f22baf22563a98aa862c13d9daefcc228e3f82b4639e
+SHA1: f38c8d74bd56c1ec03f0ae7a4e170b1ae04ce94d
+MD5sum: 4f6d316ed2f841d4b4199a367eb9bda5
+Description: MythTV log messages server.
+ Log messages generated by MythTV programs are sent to mythlogserver which
+ distributes them based on the --syslog, and --logpath command line options
+ as well as to the database (if --nodblog isn't set.)
+
+Package: mythtv
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 58
+Pre-Depends: mysql-server
+Depends: mythtv-database (>= 0.26.0+fixes20130228-dmo1), mythtv-frontend (>= 0.26.0+fixes20130228-dmo1), mythtv-backend (>= 0.26.0+fixes20130228-dmo1)
+Recommends: mythtv-doc
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythtv-dmo/mythtv_0.26.0+fixes20130228-dmo1_all.deb
+Size: 29162
+SHA256: 00c217c4478baee0894b13e26b448700ae43c74afda07d99814dc1111957e024
+SHA1: 86a4774f23d4b4c78e9d8564ebce4b2d10df1a62
+MD5sum: 29447a4b2e14f28f469208165f89e94f
+Description: Personal video recorder application (client and server).
+ MythTV implements the following PVR features, and more, with a
+ unified graphical interface:
+ .
+  - Basic 'live-tv' functionality. Pause/Fast Forward/Rewind "live" TV.
+  - Video compression using RTjpeg or MPEG-4
+  - Program listing retrieval using XMLTV
+  - Themable, semi-transparent on-screen display
+  - Electronic program guide
+  - Scheduled recording of TV programs
+  - Resolution of conflicts between scheduled recordings
+  - Basic video editing
+ .
+ This package will install a complete MythTV client/server environment on a
+ single system, including a MySQL server.
+ .
+ The powerpc packages were compiled with altivec and sparc packages with
+ ultra-sparc support.
+
+Package: mythtv-backend
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 4552
+Pre-Depends: dpkg (>= 1.15.7.2)
+Depends: mythtv-common (>= 0.26.0+fixes20130228-dmo1), libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libmyth-0.26-0 (>= 0.26.0+fixes20130228), libmythavcodec54 (>= 0.26.0+fixes20130228), libqt4-network (>= 4:4.5.3), libqt4-script (>= 4:4.5.3), libqt4-sql (>= 4:4.5.3), libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.6), cron, wget, libjs-jquery, mythlogserver, mythtv-transcode
+Recommends: mythtv-database, logrotate, xmltv-util
+Suggests: mythtv-frontend, mythweb
+Conflicts: mythtv (<< 0.8-1)
+Replaces: mythtv (<< 0.8-1), mythtv-frontend (<= 0.20-0.4)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythtv-dmo/mythtv-backend_0.26.0+fixes20130228-dmo1_armhf.deb
+Size: 1245202
+SHA256: f4e6eabafb865de271bfb6f055239430114b935f20cedc0585a24368d44de8e8
+SHA1: 1ef1ef6033113eef60e70202400c8e35a74ecd86
+MD5sum: f4bb76414853de6b1f2e314df542903f
+Description: Personal video recorder application (server).
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ This package contains only the server software, which provides video and
+ audio capture and encoding services. In order to be useful, it requires a
+ mythtv-frontend installation, either on the same system or one reachable
+ via the network.
+ .
+ A database is also required. The mythtv-database package must be installed,
+ either on the same system, or one reachable via the network.
+ .
+ The powerpc packages were compiled with altivec and sparc packages with
+ ultra-sparc support.
+ .
+ For a complete installation of all MythTV components, install the 'mythtv'
+ package.
+
+Package: mythtv-common
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 28762
+Depends: debconf (>= 0.5) | debconf-2.0, libxml-xpath-perl, mysql-client, ttf-freefont, fonts-liberation, ttf-tiresias, fonts-droid, python-pycurl
+Recommends: mythtv-doc (>= 0.26.0+fixes20130228-dmo1)
+Conflicts: mythtv (<< 0.8-1), mythvideo
+Replaces: libmyth-0.26-0 (<= 0.26.0-dmo8), mythcontrols (<< 0.22-0.5), mythmusic (<= 0.20.2.svn20080126-0.0), mythtv (<< 0.8-1), mythtv-backend (<= 0.20.2.svn20071021-0.0), mythtv-backend-python (<= 0.24~), mythtv-frontend (<= 0.26.0-dmo9), mythtv-themes (<= 0.21.svn20090824-0.4)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythtv-dmo/mythtv-common_0.26.0+fixes20130228-dmo1_all.deb
+Size: 15157746
+SHA256: 34225f1cd2b866ef126afe60c669c99cc5cb2adf3ebb0c5d4ce95e4206285c6d
+SHA1: a686b8d18df11f1a8f1199690ed7a3866238125c
+MD5sum: da993c78f8b1102ad84cccdf1e1c0194
+Description: Personal video recorder application (common data).
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ This package contains infrastructure needed by both the client and the
+ server.
+
+Package: mythtv-database
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 81
+Depends: mythtv-common (>= 0.26.0+fixes20130228-dmo1), debconf (>= 0.5) | debconf-2.0, libdbd-mysql-perl, mysql-client, cron
+Recommends: mysql-server
+Conflicts: mythtv (<< 0.8-1), mythtv-common (<< 0.8-2)
+Replaces: mythtv (<< 0.8-1), mythtv-common (<< 0.8-2)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythtv-dmo/mythtv-database_0.26.0+fixes20130228-dmo1_all.deb
+Size: 32048
+SHA256: 558fa754a1373d9b445f95307f064f391ee1899eb65f6761cca82348eaf7d3f9
+SHA1: 4b14829534e71e6306cf2ad12d03ef9b7f3e3a3a
+MD5sum: cc6dd1e88c6b8e0dd8b817a822a93dff
+Description: Personal video recorder application (database).
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ The powerpc packages were compiled with altivec and sparc packages with
+ ultra-sparc support.
+ .
+ This package sets up a MySQL database for use MythTV. It should be
+ installed on the system where the MySQL server resides.
+
+Package: mythtv-doc
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 332
+Conflicts: mythtv (<< 0.8-1)
+Replaces: mythtv (<< 0.8-1)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: doc
+Filename: pool/main/m/mythtv-dmo/mythtv-doc_0.26.0+fixes20130228-dmo1_all.deb
+Size: 157310
+SHA256: 0c48d2cdba8ab53716c31e0d07336b16dc1630abb4e72fb591005db6a2881ad7
+SHA1: f27548e2391adbd45a706ba0ecf3875825f7892f
+MD5sum: 5ac8329ead68e255e1595b6e7a4dc510
+Description: Personal video recorder application (documentation).
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ This package contains documentation, including the MythTV HOWTO.
+
+Package: mythtv-frontend
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 3159
+Depends: mythtv-common (>= 0.26.0+fixes20130228-dmo1), libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libmyth-0.26-0 (>= 0.26.0+fixes20130228), libmythavcodec54 (>= 0.26.0+fixes20130228), libmythavformat54 (>= 0.26.0+fixes20130228), libmythavutil51 (>= 0.26.0+fixes20130228), libmythpostproc52 (>= 0.26.0+fixes20130228), libqt4-dbus (>= 4:4.5.3), libqt4-network (>= 4:4.5.3), libqt4-sql (>= 4:4.5.3), libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.6), debconf (>= 0.5) | debconf-2.0, python-mythtv, mythlogserver, transcode
+Suggests: mythtv-backend, mythmusic, mythweather, mythgallery, mythvideo, mythgame
+Conflicts: mythstream (<< 0.20), mythtv (<< 0.8-1)
+Replaces: mythtv (<< 0.8-1), mythtv-backend-python
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythtv-dmo/mythtv-frontend_0.26.0+fixes20130228-dmo1_armhf.deb
+Size: 978886
+SHA256: 40a9921f068821ee3b6469947d3b49cc66d19cb9ce13cbfbf51dc25309d2b096
+SHA1: 1dd754d3c74ac53e23ee4dcfc0c87690f10428b3
+MD5sum: 73cf58f235a35cba0165bdce5ac7a569
+Description: Personal video recorder application (client).
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ This package contains only the client software, which provides a front-end
+ for playback and configuration. It requires access to a mythtv-backend
+ installation, either on the same system or one reachable via the network.
+ .
+ A database is also required. The mythtv-database package must be installed,
+ either on the same system, or one reachable via the network.
+ .
+ The powerpc packages were compiled with altivec and sparc packages with
+ ultra-sparc support.
+ .
+ For a complete installation of all MythTV components, install the 'mythtv'
+ package.
+
+Package: mythtv-perl
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 58
+Depends: libmythtv-perl
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: perl
+Filename: pool/main/m/mythtv-dmo/mythtv-perl_0.26.0+fixes20130228-dmo1_all.deb
+Size: 28728
+SHA256: 14b007fa41992b52878d7dc8520e975d7e1a26472055aac4331cdce3f71c3b75
+SHA1: a817ea82de08b2b1f3c60bf759c68d60c411cfab
+MD5sum: 2cfa4890ea0dee66a1d97a6007303db5
+Description: Dummy package to install libmythtv-perl
+ This package can be removed.
+
+Package: mythtv-transcode
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 454
+Depends: mythtv-common, libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libmyth-0.26-0 (>= 0.26.0+fixes20130228), libmythavcodec54 (>= 0.26.0+fixes20130228), libmythavformat54 (>= 0.26.0+fixes20130228), libmythavutil51 (>= 0.26.0+fixes20130228), libmythswscale2 (>= 0.26.0+fixes20130228), libqt4-sql (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libstdc++6 (>= 4.4.0)
+Suggests: mythtv-backend, mytharchive
+Conflicts: mythtv-backend (<= 0.26.0-dmo12)
+Replaces: mythtv-backend (<= 0.26.0-dmo12)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythtv-dmo/mythtv-transcode_0.26.0+fixes20130228-dmo1_armhf.deb
+Size: 176236
+SHA256: aebe9819c244b77bb19dc0e9fba01ec9f23b18bda0f72b34e4d6de5753ee64ee
+SHA1: caa6b8af66163f5bffd84372df54c8997b253846
+MD5sum: fd7ad9d464e10d897e1f1a9db9f75c82
+Description: Utilities used for transcoding MythTV tasks
+ Some utilities are applicable for both a frontend or a backend machine.
+ This package provides utilities that can be used on both without
+ requiring an entire backend to be installed.
+
+Package: mythweb
+Source: mythplugins-dmo
+Version: 0.26.0-dmo3
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 3826
+Depends: mythtv-common (>= 0.25~), apache2 | httpd, php5-mysql, libmath-round-perl, ffmpeg | mythffmpeg, libjs-scriptaculous, php-mythtv
+Conflicts: mythdvd, mythflix
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythplugins-dmo/mythweb_0.26.0-dmo3_all.deb
+Size: 910082
+SHA256: 9fcf95425b6dab62ea4d46b6c0f1b5247dca01c5bd753a6eaa7ed3115c85da8d
+SHA1: 7dc271a2411c6e0680f559f95acbb1dab14eb14b
+MD5sum: 15c1cec4fc1684ebe96bbca2b26cff5f
+Description: Web frontend to control MythTV through a web browser.
+ MythWeb provides a web interface which can be used to view listings,
+ schedule recordings, delete recordings, and search for programs. It can
+ also browse mythmusic's music database, and may eventually support playing
+ music streams as well.
+
+Package: php-mythtv
+Source: mythtv-dmo
+Version: 0.26.0+fixes20130228-dmo1
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 111
+Depends: libapache2-mod-php5 (>= 5.3) | php5 (>= 5.3)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythtv-dmo/php-mythtv_0.26.0+fixes20130228-dmo1_all.deb
+Size: 38316
+SHA256: e139e31dd0b0fad3d24eae953174acec236c72afa3460a660c8d5f0e6285bc79
+SHA1: df426d57d45feed4f9b7c1defddc65d9973456fc
+MD5sum: efa68686782f7dab5cd2d7e3de52fb1c
+Description: PHP Bindings for MythTV
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ This package contains files needed for using PHP based applications that
+ connect to MythTV backends.
+
+Package: python-mythtv
+Source: mythtv-dmo
+Version: 0.26.1+fixes20131019-dmo1
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 660
+Depends: python (>= 2.7), python (<< 2.8), python-mysqldb, python-lxml
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: python
+Filename: pool/main/m/mythtv-dmo/python-mythtv_0.26.1+fixes20131019-dmo1_all.deb
+Size: 130254
+SHA256: bc918d10c0f496a887f43914783f0e99d2ad452839f8a9acc53fdbb6d034bedb
+SHA1: 64d078f4082d32bbb8a175fd28fb111dac20471f
+MD5sum: 663aacc61906a47902adccdf2f9aa8db
+Description: Personal video recorder application (common data).
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ This package contains Python bindings to access mythtv datas.
+
+Package: tvheadend
+Version: 3.2.18~g40a8920
+Architecture: armhf
+Maintainer: Andreas Öman <andreas@lonelycoder.com>
+Installed-Size: 6452
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
+Recommends: xmltv-util
+Enhances: showtime
+Replaces: hts-tvheadend
+Homepage: http://www.lonelycoder.com/tvheadend
+Priority: optional
+Section: misc
+Filename: pool/main/t/tvheadend/tvheadend_3.2.18~g40a8920_armhf.deb
+Size: 2100456
+SHA256: db949d8298a97ab6eb7a4f24067d42d15c593f4508eb2f27ab4a2b52d11dcaaa
+SHA1: f89c9eeef40fa70fadb2bdfab54bc7f09c2af3f9
+MD5sum: 51e53880dba87fc5e4c02735388ef11a
+Description: Tvheadend
+ Tvheadend is a TV streaming server for Linux supporting DVB, ATSC, IPTV, and Analog video (V4L) as input sources.
+ Can be used as a backend to Showtime, XBMC and various other clients.
+
+Package: tvheadend-dbg
+Source: tvheadend
+Version: 3.2.18~g40a8920
+Architecture: armhf
+Maintainer: Andreas Öman <andreas@lonelycoder.com>
+Installed-Size: 1508
+Depends: tvheadend (= 3.2.18~g40a8920)
+Priority: optional
+Section: misc
+Filename: pool/main/t/tvheadend/tvheadend-dbg_3.2.18~g40a8920_armhf.deb
+Size: 633748
+SHA256: 08ab5c28646df88b410a857d331602b3a116e2e147bc4944f9c6e27bb34da7b5
+SHA1: a910523e8ace0d2177aad56a850c0f60e689c928
+MD5sum: c831b58f318e6b0bb6a937f139e02c92
+Description: Debug symbols for Tvheadend
+ This package contains the debugging symbols for Tvheadend.
+

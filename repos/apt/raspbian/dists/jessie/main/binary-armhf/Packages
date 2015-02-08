@@ -1,0 +1,1015 @@
+Package: faac
+Version: 1:1.28-dmo3
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 70
+Depends: libc6 (>= 2.7), libfaac0, libmp4v2-2
+Homepage: http://www.audiocoding.com/
+Priority: optional
+Section: sound
+Filename: pool/main/f/faac/faac_1.28-dmo3_armhf.deb
+Size: 18708
+SHA256: 91ccbe643a82e1f8b93d0524edfd71c80f6273b24b9bcc4c7a91ca7b800bbce5
+SHA1: 41036edb6eeadf8ff92d1ed8904f1da691ff670e
+MD5sum: 933e6715475fc48ecfc48312af22230b
+Description: AAC audio encoder.
+ FAAC currently supports MPEG-4 LTP, MAIN and LOW COMPLEXITY object types
+ and MAIN and LOW MPEG-2 object types. It also supports multichannel and
+ gapless encoding.
+
+Package: libcec1
+Version: 1.8.1-dmo4
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 491
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:4.4.0), liblockdev1, libstdc++6 (>= 4.9), libudev1 (>= 183)
+Multi-Arch: same
+Homepage: http://libcec.pulse-eight.com/
+Priority: optional
+Section: libs
+Filename: pool/main/libc/libcec1/libcec1_1.8.1-dmo4_armhf.deb
+Size: 139798
+SHA256: 14f343c053df0ae8ea095e5ea46ed5c5e8b57fad8b4c1548351de485094c1f69
+SHA1: 109973daa22d142d4ce09255359a2c7d8460e626
+MD5sum: a301b84ebb2ae2ebfa58ef9fefca890b
+Description: USB CEC Adaptor communication Library (shared library)
+ This library provides support for the Pulse-Eight USB-CEC adapter.
+ .
+ This package provides the shared library.
+
+Package: libcec1-dev
+Source: libcec1
+Version: 1.8.1-dmo4
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 1158
+Depends: libcec1 (= 1.8.1-dmo4)
+Conflicts: libcec-dev
+Replaces: libcec-dev
+Homepage: http://libcec.pulse-eight.com/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libc/libcec1/libcec1-dev_1.8.1-dmo4_armhf.deb
+Size: 191122
+SHA256: 87d35fdba905430dddf1dd288651577ff1162dd9a5b30eb6ba5f804a9a8a39ea
+SHA1: def4e5534c96e66c5c94bbe41ad443c764379098
+MD5sum: 53d2f4e408bbdeca4641acbc3da7f9d3
+Description: USB CEC Adaptor communication Library (development files)
+ This library provides support for the Pulse-Eight USB-CEC adapter.
+ .
+ This package provides the necessary files needed for development.
+
+Package: libfaac-dev
+Source: faac
+Version: 1:1.28-dmo3
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 121
+Depends: libfaac0 (= 1:1.28-dmo3)
+Multi-Arch: same
+Homepage: http://www.audiocoding.com/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/faac/libfaac-dev_1.28-dmo3_armhf.deb
+Size: 42170
+SHA256: 9a667dc4fa1a095965c99f7ae37ba72a094edbf8a4820b9cb9647d7d47409676
+SHA1: c3040b532c9f666e76899a0afd522b40fa00849e
+MD5sum: 4cbe6613e790163dbfcab5c4438c409a
+Description: AAC audio encoder - devel files.
+ FAAC currently supports MPEG-4 LTP, MAIN and LOW COMPLEXITY object types
+ and MAIN and LOW MPEG-2 object types. It also supports multichannel and
+ gapless encoding.
+
+Package: libfaac0
+Source: faac
+Version: 1:1.28-dmo3
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 102
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4)
+Multi-Arch: same
+Homepage: http://www.audiocoding.com/
+Priority: optional
+Section: libs
+Filename: pool/main/f/faac/libfaac0_1.28-dmo3_armhf.deb
+Size: 39612
+SHA256: 7342d31b03f0a8d27849babc62658995c6cf9a86552eec9baefa4e9070d21673
+SHA1: 59fce2c3b651c1cac9a56cd340473cbf4875869e
+MD5sum: a7916956d060e460a17f1cfdd9db5c69
+Description: AAC audio encoder - library files.
+ FAAC currently supports MPEG-4 LTP, MAIN and LOW COMPLEXITY object types
+ and MAIN and LOW MPEG-2 object types. It also supports multichannel and
+ gapless encoding.
+
+Package: libmyth-0.27-0
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 17136
+Depends: libasound2 (>= 1.0.16), libass5 (>= 0.10.2), libavahi-compat-libdnssd1 (>= 0.6.16), libavc1394-0 (>= 0.5.3), libc6 (>= 2.16), libfftw3-double3, libfftw3-single3, libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.4.0), libgl1-mesa-glx | libgl1, libhdhomerun1, libiec61883-0 (>= 1.2.0), libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, libmp3lame0, libmythavcodec54 (>= 0.27.3+fixes20140825), libmythavformat54 (>= 0.27.3+fixes20140825), libmythavutil52 (>= 0.27.3+fixes20140825), libmythswresample0 (>= 0.27.3+fixes20140825), libmythswscale2 (>= 0.27.3+fixes20140825), libmythzmq1 (>= 0.27.3+fixes20140825), libpulse0 (>= 0.99.1), libqjson0 (>= 0.7.1), libqt4-dbus (>= 4:4.5.3), libqt4-network (>= 4:4.8.0), libqt4-opengl (>= 4:4.7.2), libqt4-script (>= 4:4.5.3), libqt4-sql (>= 4:4.5.3), libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libqtwebkit4 (>= 2.1.0~2011week13), libraw1394-11, libsamplerate0 (>= 0.1.7), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.6), libtag1c2a (>= 1.6), libva-glx1 (>= 1.0.3), libva-x11-1 (>= 1.0.3), libva1 (>= 1.2.0), libvdpau1 (>= 0.2), libx11-6 (>= 2:1.4.99.1), libxext6, libxinerama1, libxml2 (>= 2.7.4), libxrandr2 (>= 4.3), libxv1, libxxf86vm1, zlib1g (>= 1:1.1.4), libqt4-sql-mysql, procps, iputils-ping
+Recommends: udisks2
+Conflicts: libmyth-0.21, mythtv (<< 0.7-5)
+Replaces: libmyth-0.21, mythtv (<< 0.7-5), mythtv-frontend (<= 0.26.0-dmo7)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmyth-0.27-0_0.27.3+fixes20140927-dmo1.1~ancona.0_armhf.deb
+Size: 5028374
+SHA256: 63bc740c88107d343c916b5a480f2ee0bd1c3a8ad0e175bb6358cf88c4c6d76f
+SHA1: 2f709082bd8c22f529e1d15480830cf2936a4ff1
+MD5sum: a04b69ab7742d4e0a936bd55da2c8592
+Description: Common library code for MythTV and add-on modules (runtime)
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ The powerpc packages were compiled with altivec and sparc packages with
+ ultra-sparc support.
+ .
+ This package contains a shared library, libmyth, which is used by various
+ components in the system.
+
+Package: libmyth-dev
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 2550
+Depends: libmyth-0.27-0 (= 0.27.3+fixes20140927-dmo1.1~ancona.0)
+Conflicts: libmyth-0.20-dev
+Replaces: libmyth-0.20-dev
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mythtv-dmo/libmyth-dev_0.27.3+fixes20140927-dmo1.1~ancona.0_armhf.deb
+Size: 382620
+SHA256: 52faa9c9cf91229e2b140a4dfd29f1a3e6658405aa3314b655d42061eecbb928
+SHA1: 5dc6fe7a9c0a4bce7297664bc4d7e765557c8a73
+MD5sum: 369a5855fa0d4a2e84789435d49b613f
+Description: Common library code for MythTV and add-on modules (development)
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ This package contains files needed for developing applications which use
+ libmyth (such as the various add-ons for MythTV)
+
+Package: libmythavcodec54
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 6513
+Depends: libc6 (>= 2.7), libfaac0, libmp3lame0, libmythavutil52 (>= 0.27.3+fixes20140825), libva1 (>= 1.0.3), libvpx1 (>= 1.3.0), libx264-142, libxvidcore4 (>= 1.2.2), zlib1g (>= 1:1.2.0)
+Conflicts: libmyth-0.24-0 (<= 0.24-0.6)
+Replaces: libmyth-0.24-0 (<= 0.24-0.6)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythavcodec54_0.27.3+fixes20140927-dmo1.1~ancona.0_armhf.deb
+Size: 2558428
+SHA256: 27109ee736fefbbc9a8fdf447f6186a0092ddb600f70f1a88b1d3501ab16e850
+SHA1: c0a4ac1c9dada4e1ac50ede3d65b49c667224934
+MD5sum: e4805925c363e3b864006a302caeedbf
+Description: libavcodec package for MythTV
+ This package is only used by MythTV packages.
+
+Package: libmythavdevice54
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 114
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.17), libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, libmythavcodec54 (>= 0.27.3+fixes20140825), libmythavfilter3 (>= 0.27.3+fixes20140825), libmythavformat54 (>= 0.27.3+fixes20140825), libmythavutil52 (>= 0.27.3+fixes20140825)
+Conflicts: libmyth-0.24-0 (<= 0.24-0.6)
+Replaces: libmyth-0.24-0 (<= 0.24-0.6)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythavdevice54_0.27.3+fixes20140927-dmo1.1~ancona.0_armhf.deb
+Size: 50104
+SHA256: ac08e1c36ff52c86b9675971ad4ee72777e1ac235521e158b771495f1e316bd2
+SHA1: 5eea9714a42d7d2bbb819783d369e22f85feb864
+MD5sum: 5d79e5dc2972c8ed7bb972243b28bc22
+Description: libavdevice package for MythTV
+ This package is only used by MythTV packages.
+
+Package: libmythavfilter3
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 677
+Depends: libass5 (>= 0.10.2), libc6 (>= 2.7), libmythavcodec54 (>= 0.27.3+fixes20140825), libmythavformat54 (>= 0.27.3+fixes20140825), libmythavutil52 (>= 0.27.3+fixes20140825), libmythpostproc52 (>= 0.27.3+fixes20140825), libmythswresample0 (>= 0.27.3+fixes20140825), libmythswscale2 (>= 0.27.3+fixes20140825)
+Conflicts: libmyth-0.24-0 (<= 0.24-0.6)
+Replaces: libmyth-0.24-0 (<= 0.24-0.6)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythavfilter3_0.27.3+fixes20140927-dmo1.1~ancona.0_armhf.deb
+Size: 247810
+SHA256: bcedfbe1d9a2b3b6618e65a4efd1d31e1bca4a30dc2ca910b57229f1189d0b5c
+SHA1: 3c1fcabdd67fd37c1399fb1c734e62030b5609ae
+MD5sum: 09557dbd31654da72cf30866f2af8c39
+Description: libavfilter package for MythTV
+ This package is only used by MythTV packages.
+
+Package: libmythavformat54
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 1381
+Depends: libbz2-1.0, libc6 (>= 2.7), libmythavcodec54 (>= 0.27.3+fixes20140825), libmythavutil52 (>= 0.27.3+fixes20140825), zlib1g (>= 1:1.1.4)
+Conflicts: libmyth-0.24-0 (<= 0.24-0.6)
+Replaces: libmyth-0.24-0 (<= 0.24-0.6)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythavformat54_0.27.3+fixes20140927-dmo1.1~ancona.0_armhf.deb
+Size: 570326
+SHA256: 7e73dafe40bee1cb9ae54167b73f912e432a2f81f65be08a626d48413e7d23cd
+SHA1: 9f45aab0f60a46983712d958f0c5b9ed5aa83eda
+MD5sum: c35b03792b5b8acb1acb9512b116c021
+Description: libavformat package for MythTV
+ This package is only used by MythTV packages.
+
+Package: libmythavutil52
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 230
+Depends: libc6 (>= 2.7)
+Conflicts: libmyth-0.24-0 (<= 0.24-0.6)
+Replaces: libmyth-0.24-0 (<= 0.24-0.6)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythavutil52_0.27.3+fixes20140927-dmo1.1~ancona.0_armhf.deb
+Size: 102130
+SHA256: d62dd35adb6389c9b576b80baff822ca173b3eb07b66da04c634ac222034c99a
+SHA1: c0cf198f5c023df637bbb866b69600e1e004a9f4
+MD5sum: 80b3c5964687a90174e9961a317f8b15
+Description: libavutil package for MythTV
+ This package is only used by MythTV packages.
+
+Package: libmythpostproc52
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 117
+Depends: libc6 (>= 2.4), libmythavutil52 (>= 0.27.3+fixes20140825)
+Conflicts: libmyth-0.24-0 (<= 0.24-0.6)
+Replaces: libmyth-0.24-0 (<= 0.24-0.6)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythpostproc52_0.27.3+fixes20140927-dmo1.1~ancona.0_armhf.deb
+Size: 50240
+SHA256: e6f3a0a39a739577f4a789e334d313e6c8de94c279eb8e7ad53e89f67aa74697
+SHA1: 91335d0b51faac7fe67d3b50f7936b11f9f65fcd
+MD5sum: 8094ca42fa5df4d4c52c3b03fdecdb6f
+Description: libpostproc package for MythTV
+ This package is only used by MythTV packages.
+
+Package: libmythqjson0
+Source: mythtv-dmo
+Version: 0.27.3-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 174
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libqtcore4 (>= 4:4.7.0~beta1), libstdc++6 (>= 4.4.0)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythqjson0_0.27.3-dmo1_armhf.deb
+Size: 72386
+SHA256: 97c5820db28d015b8029ed43d2c33495087014823ffb2ad174498baec89a8f0f
+SHA1: fe561cfecba41b4961f6acf754b082037c008410
+MD5sum: fcd474f92f4dd86f1804087f485511f0
+Description: swresample package for MythTV.
+ This package is only used by MythTV packages.
+
+Package: libmythswresample0
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 129
+Depends: libc6 (>= 2.4), libmythavutil52 (>= 0.27.3+fixes20140825)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythswresample0_0.27.3+fixes20140927-dmo1.1~ancona.0_armhf.deb
+Size: 57136
+SHA256: 8955f2561f50575061f513399f3ad555f4281b5e31e51391a9400fdccdfcaaf4
+SHA1: 711ff6bded700108042d5f84a474c97c563cb9d0
+MD5sum: 8acb48a9ff97e0a6558d2cd94888fb3c
+Description: swresample package for MythTV
+ This package is only used by MythTV packages.
+
+Package: libmythswscale2
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 254
+Depends: libc6 (>= 2.4), libmythavutil52 (>= 0.27.3+fixes20140825)
+Conflicts: libmyth-0.24-0 (<= 0.24-0.6)
+Replaces: libmyth-0.24-0 (<= 0.24-0.6)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythswscale2_0.27.3+fixes20140927-dmo1.1~ancona.0_armhf.deb
+Size: 91216
+SHA256: a4aa03022cfb7e699b049a293e3fcb52cca5e1d94a8dd54135d6a9f4564922da
+SHA1: 0b1b849832157f029484e0a6e4864d4a62ca42fd
+MD5sum: 3153e1dc1341abcf50c36c9b621d855f
+Description: libswscale package for MythTV
+ This package is only used by MythTV packages.
+
+Package: libmythtv-perl
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 167
+Depends: perl, libdbi-perl, libdbd-mysql-perl, libwww-perl, libnet-upnp-perl, libio-socket-inet6-perl
+Conflicts: mythtv-perl (<= 0.20.2.svn20071109-0.0)
+Replaces: mythtv-perl (<= 0.20.2.svn20071109-0.0)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: perl
+Filename: pool/main/m/mythtv-dmo/libmythtv-perl_0.27.3+fixes20140927-dmo1.1~ancona.0_all.deb
+Size: 48938
+SHA256: 1c2170debfe99204be34df49fbcd2b8dab4ade75df6e01e225fe2b09a83b7259
+SHA1: 9f6df123b1e3886ac86c0bc5c820cab589093c4d
+MD5sum: 69e0569102618a088701016714e6f69f
+Description: Personal video recorder application (common data)
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ This package contains Perl bindings to access mythtv datas.
+
+Package: libmythzmq1
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 231
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.9), libuuid1 (>= 2.16)
+Conflicts: libmyth-0.26-0
+Replaces: libmyth-0.26-0
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mythtv-dmo/libmythzmq1_0.27.3+fixes20140927-dmo1.1~ancona.0_armhf.deb
+Size: 89764
+SHA256: 2f026df640a904534ebd6b894ff5bf4d551906ebd4fb9f671d56053523be6d15
+SHA1: 57a7ddff5e6be8fbeea64ab1844aed7ac6962f25
+MD5sum: f55f9f3f36a1d8aeb966dc7ace8931e7
+Description: Lightweight messaging kernel package for MythTV
+ This package is only used by MythTV packages.
+
+Package: mytharchive
+Source: mythplugins-dmo
+Version: 1:0.27.3-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 712
+Depends: libc6 (>= 2.11), libgcc1 (>= 1:4.4.0), libmyth-0.27-0 (>= 0.27.3~), libmythavcodec54 (>= 0.27.3~), libmythavformat54 (>= 0.27.3~), libmythavutil52 (>= 0.27.3~), libmythswscale2 (>= 0.27.3~), libqt4-sql (>= 4:4.5.3), libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.3.0), zlib1g (>= 1:1.1.4), mytharchive-data (= 1:0.27.3-dmo1), mjpegtools, ffmpeg | mythffmpeg, dvdauthor, genisoimage, dvd+rw-tools, pmount, m2vrequantiser, mythtv-transcode
+Conflicts: mythdvd, mythflix
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythplugins-dmo/mytharchive_0.27.3-dmo1_armhf.deb
+Size: 208060
+SHA256: db30777ac88ff87ce2e28fe53d31406b5eb199edd5adab51cc47d62eb9aeac1c
+SHA1: 07b0fd91d22555ac1403bca2584900f78cf4c740
+MD5sum: fd1d242705d758c9aed12a3cef58ad90
+Description: Create and burn DVD's from MythTV - binary file
+ MythArchive is a plugin for MythTV that lets you create DVDs from your
+ recorded shows, MythVideo files and any video files available on your
+ system. It can also archive recordings in a proprietary format that
+ archives not only the file but also all the associated metadata like title,
+ description and cut list information which will mean you can create backups
+ of myth recordings which can later be restored or it will also allow you to
+ move recordings between myth systems without losing any of the metadata. It
+ is a complete rewrite of the old MythBurn bash scripts, now using Python,
+ and the mythfrontend UI plugin.
+
+Package: mytharchive-data
+Source: mythplugins-dmo
+Version: 1:0.27.3-dmo1
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 17459
+Depends: python-imaging, python-mysqldb, python
+Replaces: mytharchive (<= 0.23~rc1-0.0), mythtv-common (<= 0.21.svn20090824-0.4)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythplugins-dmo/mytharchive-data_0.27.3-dmo1_all.deb
+Size: 12270538
+SHA256: 9466a5b3a5e1d5bd0709d7c3937664020e4aa0750112a11d290be6f8cf4b5580
+SHA1: 9f262f529108c0f6b978f42e3c6ef2fa37c141cb
+MD5sum: 49ae376476b3e9fb9785028e57b66c01
+Description: Create and burn DVD's from MythTV - data files
+ MythArchive is a plugin for MythTV that lets you create DVDs from your
+ recorded shows, MythVideo files and any video files available on your
+ system. It can also archive recordings in a proprietary format that
+ archives not only the file but also all the associated metadata like title,
+ description and cut list information which will mean you can create backups
+ of myth recordings which can later be restored or it will also allow you to
+ move recordings between myth systems without losing any of the metadata. It
+ is a complete rewrite of the old MythBurn bash scripts, now using Python,
+ and the mythfrontend UI plugin.
+
+Package: mythbrowser
+Source: mythplugins-dmo
+Version: 1:0.27.3-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 344
+Depends: mythtv-common (>= 0.27.3~), mythtv-frontend (>= 0.27.3~), libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libmyth-0.27-0 (>= 0.27.3~), libqt4-sql (>= 4:4.5.3), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.3.0)
+Conflicts: mythdvd, mythflix
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythplugins-dmo/mythbrowser_0.27.3-dmo1_armhf.deb
+Size: 84008
+SHA256: 1a981c962f12a7b428fe8b522760de92112be108dddda1df8348d3c2e2bd2ad7
+SHA1: 557a1d5e58b3294db96bef35d6c8b3afcee6061f
+MD5sum: 30b454a0c9dbd1da0bba538bad1ce468
+Description: Small web browser module for MythTV
+ Mythbrowser is an integrated web browser plugin for your MythTV system.
+
+Package: mythffmpeg
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 230
+Depends: libc6 (>= 2.7), libmythavcodec54 (>= 0.27.3+fixes20140825), libmythavdevice54 (>= 0.27.3+fixes20140825), libmythavfilter3 (>= 0.27.3+fixes20140825), libmythavformat54 (>= 0.27.3+fixes20140825), libmythavutil52 (>= 0.27.3+fixes20140825), libmythpostproc52 (>= 0.27.3+fixes20140825), libmythswresample0 (>= 0.27.3+fixes20140825), libmythswscale2 (>= 0.27.3+fixes20140825)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: utils
+Filename: pool/main/m/mythtv-dmo/mythffmpeg_0.27.3+fixes20140927-dmo1.1~ancona.0_armhf.deb
+Size: 100338
+SHA256: 0a38d6770f7191953dc22ee7321738b0de3709deb60e75e8361996dd185e86fd
+SHA1: f8282e8c8d0f4d24e94f0678a803be0fd449cac6
+MD5sum: c4ace4665b88b9a8a03508856a0ce72f
+Description: Special ffmpeg version for nuvexport
+ Special ffmpeg version for nuvexport. This binary is linked against the
+ libmythav* libraries and not libraries in libavc* packages.
+
+Package: mythgallery
+Source: mythplugins-dmo
+Version: 1:0.27.3-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 784
+Depends: mythtv-common (>= 0.27.3~), mythtv-frontend (>= 0.27.3~), libc6 (>= 2.4), libexif12, libgcc1 (>= 1:4.4.0), libgl1-mesa-glx | libgl1, libmyth-0.27-0 (>= 0.27.3~), libqt4-opengl (>= 4:4.5.3), libqt4-sql (>= 4:4.5.3), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.3.0), dcraw
+Conflicts: mythdvd, mythflix
+Replaces: mythtv-common (<= 0.21.svn20090824-0.4)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythplugins-dmo/mythgallery_0.27.3-dmo1_armhf.deb
+Size: 199688
+SHA256: 824beb3dd3754b69eb3897bbbb7b2750ce90fd4eb2ff6fefab9a83078e0d1de9
+SHA1: de3e7e2d230dc96bc63632d7a543aa036805aa6d
+MD5sum: 65904a108f86c0b795c343871e5a8d0c
+Description: Image gallery/slideshow add-on module for MythTV
+ MythGallery allows you to visually browse a directory tree containing image
+ files. It can display any image file format supported by Qt, and supports
+ image rotation and simple slideshows.
+
+Package: mythgame
+Source: mythplugins-dmo
+Version: 1:0.27.3-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 787
+Depends: mythtv-common (>= 0.27.3~), mythtv-frontend (>= 0.27.3~), libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libmyth-0.27-0 (>= 0.27.3~), libqt4-sql (>= 4:4.5.3), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.3.0), zlib1g (>= 1:1.1.4), python-lxml
+Recommends: mame
+Conflicts: mythdvd, mythflix
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: games
+Filename: pool/main/m/mythplugins-dmo/mythgame_0.27.3-dmo1_armhf.deb
+Size: 171354
+SHA256: 6ac872aebd158f33d833386a6e14503db32ac3fb9cc31a5f14837d59980796d6
+SHA1: c8f9edfc9d91a0937ac13c0d8a6d9652e6ee508b
+MD5sum: 569fefceb4c034b07d95340e3b428589
+Description: Emulator & PC Game frontend module for MythTV
+ MythGame can be used as a frontend to start any emulator that your host OS
+ runs.
+
+Package: mythlogserver
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 105
+Depends: mythtv-common (>= 0.27.3+fixes20140927-dmo1.1~ancona.0), libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libmyth-0.27-0 (>= 0.27.3+fixes20140825), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.3.0), rsyslog | system-log-daemon
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythtv-dmo/mythlogserver_0.27.3+fixes20140927-dmo1.1~ancona.0_armhf.deb
+Size: 36580
+SHA256: 31cf668a935de691f17d6f92efbd0af6da01293dd93179de7d0941a5fb43210e
+SHA1: 062d40220ef771ec1ecf01c7d9bc3fceb6a15581
+MD5sum: 8714cb073d26de5f290db7b98478169d
+Description: MythTV log messages server
+ Log messages generated by MythTV programs are sent to mythlogserver which
+ distributes them based on the --syslog, and --logpath command line options
+ as well as to the database (if --nodblog isn't set.)
+
+Package: mythmusic
+Source: mythplugins-dmo
+Version: 1:0.27.3-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 3538
+Depends: mythtv-common (>= 0.27.3~), mythtv-frontend (>= 0.27.3~), libc6 (>= 2.4), libcdio-cdda1 (>= 0.83), libcdio-paranoia1 (>= 0.83), libcdio13 (>= 0.83), libfftw3-double3, libflac8 (>= 1.3.0), libgcc1 (>= 1:4.4.0), libmp3lame0, libmyth-0.27-0 (>= 0.27.3~), libmythavcodec54 (>= 0.27.3~), libmythavformat54 (>= 0.27.3~), libmythavutil52 (>= 0.27.3~), libogg0 (>= 1.0rc3), libqt4-network (>= 4:4.5.3), libqt4-sql (>= 4:4.5.3), libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.9), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2)
+Conflicts: mythdvd, mythflix
+Replaces: mythtv-common (<= 0.21.svn20090824-0.4)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythplugins-dmo/mythmusic_0.27.3-dmo1_armhf.deb
+Size: 1147714
+SHA256: aa3eeaa15746935092c9e958d1681b5413de8f2f63321ef3eb628230b9c0391c
+SHA1: fab151cd83f26a1ee258d54bbaae17149dde2c60
+MD5sum: bd078793c5a420dbd6d0d1e7f92b5652
+Description: Music add-on module for MythTV
+ MythMusic provides a digital audio jukebox integrated with MythTV. It
+ supports Ogg Vorbis, FLAC and MP3 streams, displays visualizations, and can
+ also encode new Ogg Vorbis or FLAC streams from audio CDs using a CD-ROM
+ drive.
+
+Package: mythnetvision
+Source: mythplugins-dmo
+Version: 1:0.27.3-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 272
+Depends: mythtv-common (>= 0.27.3~), mythtv-frontend (>= 0.27.3~), mythnetvision-data (= 1:0.27.3-dmo1), libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libmyth-0.27-0 (>= 0.27.3~), libqt4-network (>= 4:4.5.3), libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.3.0), mythbrowser
+Conflicts: mythdvd, mythflix
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythplugins-dmo/mythnetvision_0.27.3-dmo1_armhf.deb
+Size: 79412
+SHA256: 85d8cbfee9d56ecf28002c5a1dd9feafdfaa857086e01e220d4ddb65d8764d4c
+SHA1: 9fbaa683db6edf5d65c40d194da041406f8b21ac
+MD5sum: 0c77216c58fbc697bc3bef11ec4e9fac
+Description: Plugin for watching internet content
+ MythNetvision is a plugin designed to make adding Internet video sources to
+ MythTV fun and easy. MythNetvision consists of two components: a search
+ screen and a site/RSS browser screen. When installed, MythNetvision appears
+ on the Media Library screen as the options "Search Internet Video" and
+ "Browse Internet Video."
+
+Package: mythnetvision-data
+Source: mythplugins-dmo
+Version: 1:0.27.3-dmo1
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 16510
+Depends: python-mysqldb
+Replaces: mythnetvision (<= 0.23~rc1-0.0)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythplugins-dmo/mythnetvision-data_0.27.3-dmo1_all.deb
+Size: 15555306
+SHA256: 2a365266e790926d523022d4143399a2b9f417f5eb2e2c6b4b52c1eb02fab817
+SHA1: 04f5d4e6d5e2c73a1a313819702552d2b0670723
+MD5sum: 5e3d3fa86877e568268eec164e267f63
+Description: Plugin for watching internet content
+ MythNetvision is a plugin designed to make adding Internet video sources to
+ MythTV fun and easy. MythNetvision consists of two components: a search
+ screen and a site/RSS browser screen. When installed, MythNetvision appears
+ on the Media Library screen as the options "Search Internet Video" and
+ "Browse Internet Video."
+ .
+ This package contains independent files (icons and python scripts).
+
+Package: mythnews
+Source: mythplugins-dmo
+Version: 1:0.27.3-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 420
+Depends: mythtv-common (>= 0.27.3~), mythtv-frontend (>= 0.27.3~), libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libmyth-0.27-0 (>= 0.27.3~), libqt4-sql (>= 4:4.5.3), libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.7.0~beta1), libstdc++6 (>= 4.3.0)
+Conflicts: mythdvd, mythflix
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythplugins-dmo/mythnews_0.27.3-dmo1_armhf.deb
+Size: 106120
+SHA256: ff48fd890bf562966f31e715135eea04e1bdc16723d630468f62829a0d319dd2
+SHA1: 44af8bdc6334705acff0fec2413ef01fae87050c
+MD5sum: 84273db56a9b29c28f00d9ac41df1017
+Description: RSS feed news reader module for MythTV
+ An RSS feed news reader module for MythTV
+
+Package: mythplugins
+Source: mythplugins-dmo
+Version: 1:0.27.3-dmo1
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 35
+Depends: mythbrowser, mythgallery, mythgame, mythmusic, mythnetvision, mythnews, mythweather, mythweb, mytharchive, mythzoneminder
+Conflicts: mythmovies
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythplugins-dmo/mythplugins_0.27.3-dmo1_all.deb
+Size: 11120
+SHA256: 7365e70943b8ac5db96f9ca13851099527da9451291709a364c601d330086b1c
+SHA1: 09082270385f0bf0f33e4cc8dd2f53debe1f5539
+MD5sum: 679d00dbab0b1f966f41d84fbcadecb9
+Description: Wrapper package for MythTV plugins
+ This package install all the MythTV plugins.
+
+Package: mythtv
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 60
+Pre-Depends: mysql-server
+Depends: mythtv-database (>= 0.27.3+fixes20140927-dmo1.1~ancona.0), mythtv-frontend (>= 0.27.3+fixes20140927-dmo1.1~ancona.0), mythtv-backend (>= 0.27.3+fixes20140927-dmo1.1~ancona.0)
+Recommends: mythtv-doc
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythtv-dmo/mythtv_0.27.3+fixes20140927-dmo1.1~ancona.0_all.deb
+Size: 31020
+SHA256: bd7d8d1fb8d0ae009a369539e4de81b27ee2066fc47e238657a378fd695dcdb8
+SHA1: f1a1f8cf36b7623c9fd89aaadc268e9fad573add
+MD5sum: aa009e7b31e79af4a494e3a7a48474e3
+Description: Personal video recorder application (client and server)
+ MythTV implements the following PVR features, and more, with a
+ unified graphical interface:
+ .
+  - Basic 'live-tv' functionality. Pause/Fast Forward/Rewind "live" TV.
+  - Video compression using RTjpeg or MPEG-4
+  - Program listing retrieval using XMLTV
+  - Themable, semi-transparent on-screen display
+  - Electronic program guide
+  - Scheduled recording of TV programs
+  - Resolution of conflicts between scheduled recordings
+  - Basic video editing
+ .
+ This package will install a complete MythTV client/server environment on a
+ single system, including a MySQL server.
+ .
+ The powerpc packages were compiled with altivec and sparc packages with
+ ultra-sparc support.
+
+Package: mythtv-backend
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 5938
+Pre-Depends: dpkg (>= 1.15.7.2~)
+Depends: mythtv-common (>= 0.27.3+fixes20140927-dmo1.1~ancona.0), libc6 (>= 2.15), libgcc1 (>= 1:4.4.0), libmyth-0.27-0 (>= 0.27.3+fixes20140825), libmythavcodec54 (>= 0.27.3+fixes20140825), libqt4-network (>= 4:4.5.3), libqt4-script (>= 4:4.5.3), libqt4-sql (>= 4:4.5.3), libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.9), cron, wget, libjs-jquery, mythlogserver, mythtv-transcode, python-pycurl, python-mythtv
+Recommends: mythtv-database, logrotate, xmltv-util
+Suggests: mythtv-frontend, mythweb
+Conflicts: mythtv (<< 0.8-1)
+Replaces: mythtv (<< 0.8-1), mythtv-common (<= 0.27.0-dmo2), mythtv-frontend (<= 0.20-0.4)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythtv-dmo/mythtv-backend_0.27.3+fixes20140927-dmo1.1~ancona.0_armhf.deb
+Size: 1389438
+SHA256: 6f91f110322f0bfeb141dab6352e7d962e7ce52194f45bb48fc104bf693699ec
+SHA1: 5c75f6653e815381a01c3194531c0fcc83f00ca4
+MD5sum: 5ff67f0438c49d078af2cc5ec20b8fca
+Description: Personal video recorder application (server)
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ This package contains only the server software, which provides video and
+ audio capture and encoding services. In order to be useful, it requires a
+ mythtv-frontend installation, either on the same system or one reachable
+ via the network.
+ .
+ A database is also required. The mythtv-database package must be installed,
+ either on the same system, or one reachable via the network.
+ .
+ The powerpc packages were compiled with altivec and sparc packages with
+ ultra-sparc support.
+ .
+ For a complete installation of all MythTV components, install the 'mythtv'
+ package.
+
+Package: mythtv-common
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 28712
+Depends: debconf (>= 0.5) | debconf-2.0, libxml-xpath-perl, mysql-client, ttf-freefont, fonts-liberation, ttf-tiresias, fonts-droid
+Recommends: mythtv-doc (>= 0.27.3+fixes20140927-dmo1.1~ancona.0), python-selinux
+Conflicts: mythtv (<< 0.8-1), mythvideo
+Replaces: libmyth-0.26-0 (<= 0.26.0-dmo8), mythcontrols (<< 0.22-0.5), mythmusic (<= 0.20.2.svn20080126-0.0), mythtv (<< 0.8-1), mythtv-backend (<= 0.20.2.svn20071021-0.0), mythtv-backend-python (<= 0.24~), mythtv-frontend (<= 0.26.0-dmo9), mythtv-themes (<= 0.21.svn20090824-0.4)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythtv-dmo/mythtv-common_0.27.3+fixes20140927-dmo1.1~ancona.0_all.deb
+Size: 15569448
+SHA256: 1cf412e80332655e90fd76ae4fe55a6dc49e54d838a2f21de0e2fc42bfec8dab
+SHA1: 3f6b8903a2f6f6f3d06589cfd04de7a78069db78
+MD5sum: f4d5ef7451b6b002ac65d075ffd1e331
+Description: Personal video recorder application (common data)
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ This package contains infrastructure needed by both the client and the
+ server.
+
+Package: mythtv-database
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 83
+Depends: mythtv-common (>= 0.27.3+fixes20140927-dmo1.1~ancona.0), debconf (>= 0.5) | debconf-2.0, libdbd-mysql-perl, mysql-client, cron
+Recommends: mysql-server
+Conflicts: mythtv (<< 0.8-1), mythtv-common (<< 0.8-2)
+Replaces: mythtv (<< 0.8-1), mythtv-common (<< 0.8-2)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythtv-dmo/mythtv-database_0.27.3+fixes20140927-dmo1.1~ancona.0_all.deb
+Size: 34310
+SHA256: 8b41f8b44da9194a2a3caf20bd9af41bb59b419249bcb2df15ce68b8f4b09f0a
+SHA1: 0cea69978ece157933f362425bc9d09f5d166db5
+MD5sum: 9d974ae8d4311abeda81166026c8443f
+Description: Personal video recorder application (database)
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ The powerpc packages were compiled with altivec and sparc packages with
+ ultra-sparc support.
+ .
+ This package sets up a MySQL database for use MythTV. It should be
+ installed on the system where the MySQL server resides.
+
+Package: mythtv-doc
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 341
+Conflicts: mythtv (<< 0.8-1)
+Replaces: mythtv (<< 0.8-1)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: doc
+Filename: pool/main/m/mythtv-dmo/mythtv-doc_0.27.3+fixes20140927-dmo1.1~ancona.0_all.deb
+Size: 166930
+SHA256: 9773ec51f9ada74b8ca177fdda86207b95220604e736e485b1f6c2ffdad3e567
+SHA1: 1347a038c1b4eb2d081dd5594ffd1b4ee44828dd
+MD5sum: 7c38d392026f6bd023806ba47aa98f8f
+Description: Personal video recorder application (documentation)
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ This package contains documentation, including the MythTV HOWTO.
+
+Package: mythtv-frontend
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 3254
+Depends: mythtv-common (>= 0.27.3+fixes20140927-dmo1.1~ancona.0), libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libmyth-0.27-0 (>= 0.27.3+fixes20140825), libmythavcodec54 (>= 0.27.3+fixes20140825), libmythavformat54 (>= 0.27.3+fixes20140825), libmythavutil52 (>= 0.27.3+fixes20140825), libmythpostproc52 (>= 0.27.3+fixes20140825), libqt4-dbus (>= 4:4.5.3), libqt4-network (>= 4:4.5.3), libqt4-sql (>= 4:4.5.3), libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.6), debconf (>= 0.5) | debconf-2.0, python-mythtv, mythlogserver, transcode
+Suggests: mythtv-backend, mythmusic, mythweather, mythgallery, mythvideo, mythgame
+Conflicts: mythstream (<< 0.20), mythtv (<< 0.8-1)
+Replaces: mythtv (<< 0.8-1), mythtv-backend-python
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythtv-dmo/mythtv-frontend_0.27.3+fixes20140927-dmo1.1~ancona.0_armhf.deb
+Size: 1000558
+SHA256: d04f57be383ade6c6561fa775d7d5cf69e11da55d7ab0e0d5220ae39f83009f8
+SHA1: ed39c475fccb63152d2ed652165ed7686bba7fd7
+MD5sum: 0e83ca2c0da61bad9e38c693e6e0645c
+Description: Personal video recorder application (client)
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ This package contains only the client software, which provides a front-end
+ for playback and configuration. It requires access to a mythtv-backend
+ installation, either on the same system or one reachable via the network.
+ .
+ A database is also required. The mythtv-database package must be installed,
+ either on the same system, or one reachable via the network.
+ .
+ The powerpc packages were compiled with altivec and sparc packages with
+ ultra-sparc support.
+ .
+ For a complete installation of all MythTV components, install the 'mythtv'
+ package.
+
+Package: mythtv-perl
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 60
+Depends: libmythtv-perl
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: perl
+Filename: pool/main/m/mythtv-dmo/mythtv-perl_0.27.3+fixes20140927-dmo1.1~ancona.0_all.deb
+Size: 30582
+SHA256: f753d2dbc5ee4754c09b2c075c0b13e8d1fe884f5dc4f0d89daa3d57aaf579b3
+SHA1: f1cec3b0b21e1cc31176b4ab58d35efebce69734
+MD5sum: 0a412368c716075467b7630e8d1cdc23
+Description: Dummy package to install libmythtv-perl
+ This package can be removed.
+
+Package: mythtv-transcode
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 455
+Depends: mythtv-common, libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libmyth-0.27-0 (>= 0.27.3+fixes20140825), libmythavcodec54 (>= 0.27.3+fixes20140825), libmythavformat54 (>= 0.27.3+fixes20140825), libmythavutil52 (>= 0.27.3+fixes20140825), libmythswscale2 (>= 0.27.3+fixes20140825), libqt4-sql (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libstdc++6 (>= 4.3.0)
+Suggests: mythtv-backend, mytharchive
+Conflicts: mythtv-backend (<= 0.26.0-dmo12)
+Replaces: mythtv-backend (<= 0.26.0-dmo12)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythtv-dmo/mythtv-transcode_0.27.3+fixes20140927-dmo1.1~ancona.0_armhf.deb
+Size: 176328
+SHA256: 66757203482b2e49bca7ca6aeea62fdec2ced148ca5b30f2cd43b7a4a1543cee
+SHA1: af226ec6ba125027de0e82200c7c4c5faa5eca14
+MD5sum: 1e668de736aa39d82b24f90a305fc910
+Description: Utilities used for transcoding MythTV tasks
+ Some utilities are applicable for both a frontend or a backend machine.
+ This package provides utilities that can be used on both without
+ requiring an entire backend to be installed.
+
+Package: mythweather
+Source: mythplugins-dmo
+Version: 1:0.27.3-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 3286
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libmyth-0.27-0 (>= 0.27.3~), libqt4-sql (>= 4:4.5.3), libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.7.0~beta1), libstdc++6 (>= 4.3.0), mythtv-common (>= 0.27.3~), mythtv-frontend (>= 0.27.3~), libdate-manip-perl, libimage-size-perl, libwww-perl, libsoap-lite-perl, libxml-parser-perl, libxml-simple-perl, libxml-sax-perl, perlmagick, libxml-xpath-perl, libdatetime-format-iso8601-perl, libdate-calc-perl, libjson-perl
+Conflicts: mythdvd, mythflix
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythplugins-dmo/mythweather_0.27.3-dmo1_armhf.deb
+Size: 782290
+SHA256: 1cdd8b71552f8540550e112b4acad869a85e70994c35bd448b4ba7af9907f1b0
+SHA1: 7bf89a7bb1c5e0734d22cb200c3e752cf635f624
+MD5sum: 8595df54af42daf0e5a1130a3de9af15
+Description: Weather add-on module for MythTV
+ MythWeather displays current and forecast weather information within
+ MythTV.
+
+Package: mythweb
+Source: mythweb-dmo
+Version: 1:0.27.3+fixes20140825-dmo1
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 3866
+Depends: mythtv-common (>= 0.27.1~), php-mythtv, apache2 | httpd, php5-mysql, libmath-round-perl, ffmpeg | mythffmpeg, libjs-scriptaculous, libjs-prototype, libjs-jquery
+Conflicts: mythdvd, mythflix
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: web
+Filename: pool/main/m/mythweb-dmo/mythweb_0.27.3+fixes20140825-dmo1_all.deb
+Size: 915744
+SHA256: bda7d0cabc02a763a4be37642290617674b9823221bf9359e47b8cc94eb94302
+SHA1: dba3c6916f232844502ddbd10ed5c4b668977e2b
+MD5sum: f71bf83dab4ea4e016a2d7c47ed5ce37
+Description: Web frontend to control MythTV through a web browser
+ MythWeb provides a web interface which can be used to view listings,
+ schedule recordings, delete recordings, and search for programs. It can
+ also browse mythmusic's music database, and may eventually support playing
+ music streams as well.
+
+Package: mythzoneminder
+Source: mythplugins-dmo
+Version: 1:0.27.3-dmo1
+Architecture: armhf
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 592
+Depends: mythtv-common (>= 0.27.3~), libc6 (>= 2.15), libgcc1 (>= 1:4.4.0), libmysqlclient18 (>= 5.5.24+dfsg-1), libmyth-0.27-0 (>= 0.27.3~), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.9)
+Suggests: zoneminder
+Conflicts: mythdvd, mythflix
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythplugins-dmo/mythzoneminder_0.27.3-dmo1_armhf.deb
+Size: 191350
+SHA256: 09e000d0b44d956a6495f1d95eeb864e473633b68d35981e43d20e09ad047a00
+SHA1: 0b6b289d9e3afb18ed8107279736f4f4a683c1f8
+MD5sum: 4cb9b7fd8bc387ab5a009c36646c8ff3
+Description: System for monitoring cctv cameras
+ ZoneMinder is a system for monitoring cctv cameras. It uses a web interface
+ which doesn't work very well on a MythTV only system so the plugin provides
+ a remote friendly interface to some of the functions provided by ZM.
+
+Package: php-mythtv
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 113
+Depends: libapache2-mod-php5 (>= 5.3) | php5 (>= 5.3)
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/m/mythtv-dmo/php-mythtv_0.27.3+fixes20140927-dmo1.1~ancona.0_all.deb
+Size: 40240
+SHA256: 08ffa918a78870add5cb54493251ec8c1c09d113536d4d991a2d601bb782b29f
+SHA1: 949688f7e2e1ecda6b857612fb649dcef0e5245d
+MD5sum: a10a887d5ef5f93822cd4051fb76875c
+Description: PHP Bindings for MythTV
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ This package contains files needed for using PHP based applications that
+ connect to MythTV backends.
+
+Package: python-mythtv
+Source: mythtv-dmo
+Version: 0.27.3+fixes20140927-dmo1.1~ancona.0
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 642
+Depends: python (>= 2.7), python (<< 2.8), python-mysqldb, python-lxml
+Homepage: http://www.mythtv.org/
+Priority: optional
+Section: python
+Filename: pool/main/m/mythtv-dmo/python-mythtv_0.27.3+fixes20140927-dmo1.1~ancona.0_all.deb
+Size: 132764
+SHA256: 415968d594101cfb15e2ca30f7b59eb5fe5ad9d1bcaf329598106352b09d564c
+SHA1: 201441b98ff693cd990eaac03029e8894587b7c4
+MD5sum: 970b7f66aa1bff68f240a30f60a0528a
+Description: Personal video recorder application (common data)
+ MythTV provides a unified graphical interface for recording and viewing
+ television programs. Refer to the mythtv package for more information.
+ .
+ This package contains Python bindings to access mythtv datas.
+

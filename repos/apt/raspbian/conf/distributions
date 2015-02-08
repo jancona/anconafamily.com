@@ -1,0 +1,19 @@
+Origin: Jim Ancona's Raspbian Packages
+Label: Jim Ancona's Raspbian Packages
+Codename: wheezy
+Architectures: armhf source
+Components: main
+Description: Apt repository for miscellaneous Raspbian packages
+DebOverride: override.wheezy
+DscOverride: override.wheezy
+SignWith: 65DB1A7A
+
+Origin: Jim Ancona's Raspbian Packages
+Label: Jim Ancona's Raspbian Packages
+Codename: jessie
+Architectures: armhf source
+Components: main
+Description: Apt repository for miscellaneous Raspbian packages
+DebOverride: override.jessie
+DscOverride: override.jessie
+SignWith: 65DB1A7A

@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Origin: Jim Ancona's Raspbian Packages
+Label: Jim Ancona's Raspbian Packages
+Codename: jessie
+Date: Sat, 18 Oct 2014 23:20:44 UTC
+Architectures: armhf
+Components: main
+Description: Apt repository for miscellaneous Raspbian packages
+MD5Sum:
+ f1e0f139f49a48eb76bd7fcab6e2b439 46828 main/binary-armhf/Packages
+ a562d3ec16480ba19f4deeaa1c9d56f3 10551 main/binary-armhf/Packages.gz
+ eddea297350c7110dbfe72fc2f6cff89 177 main/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ d5607a97dada05ee1a363af683c372e2 178 main/source/Release
+SHA1:
+ 4369b144ad2c027de72d1612cafdcbfb25006284 46828 main/binary-armhf/Packages
+ 35e901df4b11f70d0a89605b6c0ae382a8d9cda6 10551 main/binary-armhf/Packages.gz
+ f33993d7747a3facc6e8aa5c14c6e7182344931c 177 main/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ fa902bef60339cba0e319ec68168ad1d6ba35d95 178 main/source/Release
+SHA256:
+ 17c27562487f2c847bcf8bcd01ca04fbf436bcd29460d813c866818b9fb1bcc0 46828 main/binary-armhf/Packages
+ 67b3a53f3c99153714cfaceee9bffe930f85b1420377aa22f3b929bd8011a376 10551 main/binary-armhf/Packages.gz
+ 09c121f4455cd7103ae13153e6fcee58a714163183a0da0f3cd655c90b1a08be 177 main/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 05bb27ba76f4ce53e184f7ca56bdaab268afa3ba4accad6ad4f9cb12e2efa8ec 178 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJUQvXXAAoJEHGCxVL66c6lup4IAMJbdVSqGkDwb8YixuS/b5OA
+GKdS79m70ICiLDd1HMdn4g9Qmbi5JwMAETQeC8OdSyC3VqmCPHqyXuCGovoVPyao
+U6VOxZn13YanG5wDyv6w4qspcaLexl9Ifc9tO4tcy6x4WbJ8Z/Q4Tjb87mhl0S/Y
+iXCTiO+FNAUtHGTyMgrRN8G91d4Y+KBhJ9fHQU47gooco9eUlhzY0Vd4IZPQoJL6
+EMtWosJkInOfKvZwkkv0SsqVZG0jXUYC40xDdLRM6QsuNwTse7Hgp3xM1PyJXoMQ
+V5sBWpZlVZgNT+31PgdC4XiqPXFKZiU9LdhOhyPJXbJxEG6inX702ba1RZmZoCI=
+=wUGR
+-----END PGP SIGNATURE-----

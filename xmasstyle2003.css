@@ -1,0 +1,24 @@
+.page { background: white url(images/xmas_bg_2003.jpg); 
+        background-repeat: no-repeat 
+      }
+.Section1 { margin-top: 90px; 
+            margin-bottom: 100px; 
+            margin-left: 120px; 
+            margin-right: 120px; 
+            width: 610px; 
+            height: 900px;
+            font-size: 0.9em
+          }
+p { 
+            margin-top: .5em; 
+            margin-bottom: .5em;
+}
+
+.Section2 { margin-top: 150px; 
+            margin-bottom: 125px; 
+            margin-left: 150px; 
+            margin-right: 50px; 
+            width: 625px; 
+            height: 925px
+            font-size: 0.9em
+          }
