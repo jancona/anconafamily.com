@@ -1,3 +1,35 @@
-baseurl = "http://yourSiteHere"
+baseurl = "http://anconafamily.com"
 languageCode = "en-us"
-title = "my new hugo site"
+title = "anconafamily.com"
+disqusShortname = "anconafamily"
+copyright = "&copy; 1999&endash;2015 Jim Ancona"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[params]
+	sidebartitle = "Anne & Jim Ancona"
+	author = "Jim Ancona"
+#	sidebartagline = "All things Ancona..."
+
+[[menu.main]]
+    name = "Travel"
+    url = "/travel"
+
+[[menu.social]]
+    pre = "<i class='fa fa-twitter'></i>"
+    url = "http://www.twitter.com/jimancona"
+    identifier = "twitter"
+[[menu.social]]
+    pre = "<i class='fa fa-facebook'></i>"
+    url = "https://www.facebook.com/jim.ancona"
+    identifier = "facebook"
+[[menu.social]]
+    pre = "<i class='fa fa-google-plus'></i>"
+    url = "https://plus.google.com/u/0/+JimAncona/posts"
+    identifier = "google-plus"
+[[menu.social]]
+    pre = "<i class='fa fa-linkedin'></i>"
+    url = "https://www.linkedin.com/in/jancona"
+    identifier = "linkedin"
