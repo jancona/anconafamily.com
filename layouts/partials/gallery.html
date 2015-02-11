@@ -1,0 +1,32 @@
+{{if isset .Params "gallery_id" }}
+<div class="gallery" id="pageGallery"></div>
+<script type="text/javascript">
+
+    var myColorScheme = {
+        navigationbar: {
+            background: '#141E24',
+            border: '0px dotted #555',
+            color: '#ccc',
+            colorHover: '#fff'
+        },
+        thumbnail: {
+            background: '#141E24',
+            border: '1px solid #141E24',
+            labelBackground: 'transparent',
+            labelOpacity: '0.8',
+            titleColor: '#fff',
+            descriptionColor: '#eee'
+        }
+    };
+
+    $(document).ready(function () {
+      $("#pageGallery").nanoGallery({
+        kind: 'picasa',
+        userID: '105256897131431840048',
+        album: '{{ .Params.gallery_id }}',
+        colorScheme: myColorScheme
+      });
+    });
+
+</script>
+{{ end }}

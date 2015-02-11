@@ -7,6 +7,12 @@ categories = ["front"]
 +++
 # Welcome!
 
-Lots of pictures online at our [photo gallery](/gallery/).
+Lots of our older pictures are online at our
+[photo gallery](/gallery/). More recent photos are mostly at Facebook
+([Jim](https://www.facebook.com/jim.ancona/photos)
+[Anne](https://www.facebook.com/anne.ancona/photos)) although I hope
+to publish more here on this new site.
 
-We travelled to national parks across much of the country for a month in the summer of '99. We have our [journal and pictures online](/trip.html)!
+Back in the summer of '99 we travelled to national parks across much
+of the country for a month. We have our
+[journal and pictures online](/trip.html)!
