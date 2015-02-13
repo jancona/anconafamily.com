@@ -1,6 +1,5 @@
 +++
 date = "2015-02-09T18:51:49-05:00"
-draft = true
 title = "Sabbatical and a New Car"
 categories = ["travel"]
 author = "Jim Ancona"
