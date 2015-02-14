@@ -1,0 +1,27 @@
+.content p {
+  line-height: 1.5rem;
+}
+.post {
+  line-height: 1.5rem;
+}
+.post p {
+  line-height: 1.5rem;
+  margin-top: 0;
+}
+.post blockquote {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc;
+}
+.post blockquote p {
+  font-size: 95%;
+}
+table {
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+}
