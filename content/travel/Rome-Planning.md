@@ -41,14 +41,14 @@ crowded. Buy tickets or book a tour in advance. [Official tours](http://bigliett
 [the Church of Santa Susanna](http://www.santasusanna.org/popeVatican/tickets.html) approximately
 two weeks in advance.
 
-[Ostia Antica](https://www.ricksteves.com/watch-read-listen/read/articles/ostia-antica-near-rome)
+[Ostia Antica](https://www.ricksteves.com/watch-read-listen/read/articles/ostia-antica-near-rome):
 “just 30 minutes from the Colosseum, offers ancient thrills to rival
 Pompeii.”
 
 ### Rome Walking Tours
 
-http://www.viator.com/Rome/d511-ttd?aid=facb281 Recommended by Kate
-Dowd's friend
-http://www.italy.artviva.com/ Recommeded by London Walks, Rick Steves
-http://www.contexttravel.com/ - “walking seminars” in Rome, Florence,
+* http://www.viator.com/Rome/d511-ttd?aid=facb281 Recommended by Kate
+Dowd's friend Sarah
+* http://www.italy.artviva.com/ Recommeded by London Walks, Rick Steves
+* http://www.contexttravel.com/ - “walking seminars” in Rome, Florence,
 Venice. Recommeded by Rick Steves.

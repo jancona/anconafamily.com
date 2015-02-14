@@ -5,7 +5,7 @@ categories = ["travel"]
 author = "Jim Ancona"
 
 +++
-This post decribes our planned itinerary. I will update it over time
+This post describes our planned itinerary. I will update it over time
 as plans change or are refined.
 
 ### Outline
