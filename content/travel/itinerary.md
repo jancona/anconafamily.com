@@ -66,7 +66,7 @@ Four weeks, starting in Rome, departing from Nice.
 <td align="left">Day 6</td>
 <td align="left">April 19</td>
 <td align="left">Sunday</td>
-<td align="left" rowspan="2">Florence</td>
+<td align="left" rowspan="2"><a href="/travel/Florence-Planning">Florence</a></td>
 </tr>
 
 <tr>
