@@ -86,7 +86,7 @@ Four weeks, starting in Rome, departing from Nice.
 <td align="left">Day 9</td>
 <td align="left">April 22</td>
 <td align="left">Wednesday</td>
-<td align="left">Venice, overnight train to Munich at 9 pm</td>
+<td align="left"><a href="/travel/Venice-Planning">Venice</a>, overnight train to Munich at 9 pm</td>
 </tr>
 
 <tr>
