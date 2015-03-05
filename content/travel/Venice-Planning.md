@@ -20,6 +20,8 @@ Evening: [Alessandro Schezzini tour(s)](http://www.schezzini.it/index.php/featur
 
 ## Wednesday April 22
 
+Depart for Munich at 8:57 pm.
+
 
 # Places to go and things to do
 * Cruise the Grand Canal
@@ -28,5 +30,7 @@ Evening: [Alessandro Schezzini tour(s)](http://www.schezzini.it/index.php/featur
 * Doge's Palace
 * Accademia Gallery
 
-
+## Walking Tours
+* [Avventure Bellissime Walking Tours](http://tours-italy.com/venice-tours/walking-tours/)
+* [Artviva](http://www.italy.artviva.com/tours_category/6/venice_tours)
 
