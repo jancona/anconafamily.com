@@ -93,21 +93,21 @@ Four weeks, starting in Rome, departing from Nice.
 <td align="left">Day 10</td>
 <td align="left">April 23</td>
 <td align="left">Thursday</td>
-<td align="left">Arrive Munich 7 am</td>
+<td align="left">Arrive <a href="/travel/Munich-Planning">Munich</a> 7 am</td>
 </tr>
 
 <tr>
 <td align="left">Day 11</td>
 <td align="left">April 24</td>
 <td align="left">Friday</td>
-<td align="left">Pickup Day, Factory tour at 11:45, pickup at 3:30</td>
+<td align="left"><a href="/travel/Munich-Planning">Munich</a>, Pickup Day, Factory tour at 11:45, pickup at 3:30</td>
 </tr>
 
 <tr>
 <td align="left">Day 12</td>
 <td align="left">April 25</td>
 <td align="left">Saturday</td>
-<td align="left">Munich</td>
+<td align="left"><a href="/travel/Munich-Planning">Munich</a></td>
 </tr>
 
 <tr>
