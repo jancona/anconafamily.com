@@ -163,21 +163,21 @@ Four weeks, starting in Rome, departing from Nice.
 <td align="left">Day 20</td>
 <td align="left">May 3</td>
 <td align="left">Sunday</td>
-<td align="left">Drive to Bolzano, Italy (or Bled, Slovenia?)</td>
+<td align="left">Drive to Bolzano, Italy</td>
 </tr>
 
 <tr>
 <td align="left">Day 21</td>
 <td align="left">May 4</td>
 <td align="left">Monday</td>
-<td align="left">Drive to Umbria</td>
+<td align="left">Bolzano and the Dolomites</td>
 </tr>
 
 <tr>
 <td align="left">Day 22</td>
 <td align="left">May 5</td>
 <td align="left">Tuesday</td>
-<td align="left">Assisi/Umbria hill towns</td>
+<td align="left">Drive to Contignano, Tuscany</td>
 </tr>
 
 <tr>
