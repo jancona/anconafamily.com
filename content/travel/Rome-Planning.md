@@ -12,9 +12,11 @@ author = "Jim Ancona"
 We arrive at about noon. We will take the
 [Leonardo Express](http://www.trenitalia.com/cms/v/index.jsp?vgnextoid=dd2aeb82a8fbf310VgnVCM1000008916f90aRCRD) from
 the [airport](http://www.adr.it/web/aeroporti-di-roma-en-/pax-fco-fiumicino) to the
-[Rome Termini](http://www.romatermini.com/en/) station. We will probably want to buy SIM cards at either the airport or
+[Rome Termini](http://www.romatermini.com/en/) station. I originally
+thought that we would want to buy SIM cards at either the airport or
 the station. It appears that all the cell providers have [shops](http://www.romatermini.com/en/store/index/hi-tech) at
-Termini. [More on SIM cards and internet](/travel/internet).
+Termini. But I was able to purchase cards and activate them in
+advance, so this shouldn't be necessary. [More on SIM cards and internet](/travel/internet).
 
 We are staying at [Hotel Paba](http://www.hotelpaba.com/dove-siamo/), about a
 [15 minute walk](https://maps.google.com/maps?saddr=Termini,+Rome,+Italy&daddr=Via+Cavour,+266,+00184+Roma,+Italy&hl=en-US&sll=41.893626,12.489727&sspn=0.042871,0.074587&geocode=Fc1ZfwIdBMe-ACE40E6Bc9qzMilVR0Xco2EvEzE40E6Bc9qzMg%3BFfo-fwId_5O-ACnBFXRfsWEvEzEFZf5SR00YRg&oq=Rome+Ter&gl=US&dirflg=w&mra=ltm&t=m&z=16)

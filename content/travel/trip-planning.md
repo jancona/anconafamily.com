@@ -32,35 +32,34 @@ Here's the outline:
 
 Day    | Description
 :--    | :-----------
-Day 1  | Arrive in Rome at Noon
+Day 1  | Arrive in [Rome](/travel/Rome-Planning) at noon
 Day 2  | Rome
 Day 3  | Rome
 Day 4  | Rome
-Day 5  | Train to Florence in am
+Day 5  | Train to [Florence](/travel/Florence-Planning) in am
 Day 6  | Florence
 Day 7  | Florence
-Day 8  | Train to Venice in am
+Day 8  | Train to [Venice](/travel/Venice-Planning) in am
 Day 9  | Venice, overnight train to Munich at 9 pm
-Day 10 | Arrive Munich 7 am
+Day 10 | Arrive [Munich](/travel/Munich-Planning) 7 am
 Day 11 | Pickup Day, Factory tour at 11:45, pickup at 3:30
 Day 12 | Munich
-Day 13 | Drive to Rothenburg ODT via Nuremberg, Night Watchman's tour
+Day 13 | Drive to [Rothenburg](/travel/Rothenburg-Bacharach), Night Watchman's tour
 Day 14 | Rothenburg. Drive to Bacharach.
 Day 15 | Rhine Cruise
 Day 16 | Mosel Valley drive, Burg Eltz
-Day 17 | Drive to Reutte, Austria
+Day 17 | Drive to [Ehrwald, Austria](/travel/Ehrwald)
 Day 18 | Ludwig's castles, Füssen, etc.
-Day 19 | Zugspitze, some Alpine hiking?
-Day 20 | Drive to the Dolomites in northern Italy
-Day 21 | Alpine passes, drive to Umbria
-Day 22 | Assisi/Umbria hill towns
-Day 23 | Umbria/Tuscany
+Day 19 | Zugspitze, some Alpine hiking
+Day 20 | Drive to the [Dolomites](/travel/Bolzano) in northern Italy
+Day 21 | Alpine passes, Bolzano
+Day 22 | Drive to [Contignano, Tuscany](/travel/Tuscany-and-Umbria)
+Day 23 | Assisi/Umbria hill towns
 Day 24 | Tuscany
-Day 25 | Tuscany, Lucca
-Day 26 | Drive to Volastra/Cinque Terre
+Day 25 | Tuscany
+Day 26 | Drive to [Volastra/Cinque Terre](/travel/Cinque-Terre), by way of Lucca
 Day 27 | Cinque Terre
-Day 28 | Drive to Nice
-Day 29 | Dropoff car, fly home
+Day 28 | Drive to Nice, dropoff car, fly home
 
 I'll post more details on our itinerary soon. In the mean time if you
 have suggestions, please post them in the comments.

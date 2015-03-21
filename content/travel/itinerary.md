@@ -114,14 +114,14 @@ Four weeks, starting in Rome, departing from Nice.
 <td align="left">Day 13</td>
 <td align="left">April 26</td>
 <td align="left">Sunday</td>
-<td align="left">Drive to Rothenburg ob der Tauber</td>
+<td align="left">Drive to <a href="/travel/Rothenburg-Bacharach">Rothenburg ob der Tauber</a></td>
 </tr>
 
 <tr>
 <td align="left">Day 14</td>
 <td align="left">April 27</td>
 <td align="left">Monday</td>
-<td align="left">Rothenburg. Drive to Bacharach.</td>
+<td align="left">Rothenburg. Drive to <a href="/travel/Rothenburg-Bacharach">Bacharach</a>.</td>
 </tr>
 
 <tr>
@@ -142,7 +142,7 @@ Four weeks, starting in Rome, departing from Nice.
 <td align="left">Day 17</td>
 <td align="left">April 30</td>
 <td align="left">Thursday</td>
-<td align="left">Drive to Reutte, Austria</td>
+<td align="left">Drive to <a href="/travel/Ehrwald">Ehrwald, Austria</a></td>
 </tr>
 
 <tr>
@@ -156,14 +156,14 @@ Four weeks, starting in Rome, departing from Nice.
 <td align="left">Day 19</td>
 <td align="left">May 2</td>
 <td align="left">Saturday</td>
-<td align="left">Zugspitze, some Alpine hiking?</td>
+<td align="left">Zugspitze, some Alpine hiking</td>
 </tr>
 
 <tr>
 <td align="left">Day 20</td>
 <td align="left">May 3</td>
 <td align="left">Sunday</td>
-<td align="left">Drive to Bolzano, Italy</td>
+<td align="left">Drive to <a href="/travel/Bolzano">Bolzano, Italy</a></td>
 </tr>
 
 <tr>
@@ -177,7 +177,7 @@ Four weeks, starting in Rome, departing from Nice.
 <td align="left">Day 22</td>
 <td align="left">May 5</td>
 <td align="left">Tuesday</td>
-<td align="left">Drive to Contignano, Tuscany</td>
+<td align="left">Drive to <a href="/travel/Tuscany-and-Umbria">Contignano, Tuscany</a></td>
 </tr>
 
 <tr>
@@ -198,14 +198,14 @@ Four weeks, starting in Rome, departing from Nice.
 <td align="left">Day 25</td>
 <td align="left">May 8</td>
 <td align="left">Friday</td>
-<td align="left">Tuscany, Lucca</td>
+<td align="left">Tuscany</td>
 </tr>
 
 <tr>
 <td align="left">Day 26</td>
 <td align="left">May 9</td>
 <td align="left">Saturday</td>
-<td align="left">Drive to Volastra/Cinque Terre</td>
+<td align="left">Drive to <a href="/travel/Cinque-Terre">Volastra/Cinque Terre</a></td>
 </tr>
 
 <tr>
@@ -219,14 +219,8 @@ Four weeks, starting in Rome, departing from Nice.
 <td align="left">Day 28</td>
 <td align="left">May 11</td>
 <td align="left">Monday</td>
-<td align="left">Drive to Nice</td>
+<td align="left">Drive to Nice, dropoff car, fly home</td>
 </tr>
 
-<tr>
-<td align="left">Day 29</td>
-<td align="left">May 12</td>
-<td align="left">Tuesday</td>
-<td align="left">Dropoff car, fly home</td>
-</tr>
 </tbody>
 </table>
