@@ -1,6 +1,5 @@
 +++
 date = "2015-03-20T10:09:33-04:00"
-draft = true
 title = "Rothenburg, Bacharach and the Rhine"
 categories = ["travel"]
 author = "Jim Ancona"

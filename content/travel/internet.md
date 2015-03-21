@@ -1,6 +1,5 @@
 +++
 date = "2015-03-21T10:57:58-05:00"
-draft = true
 title = "Internet while travelling"
 categories = ["travel"]
 author = "Jim Ancona"

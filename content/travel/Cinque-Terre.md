@@ -1,6 +1,5 @@
 +++
 date = "2015-03-20T10:12:11-04:00"
-draft = true
 title = "Cinque Terre"
 categories = ["travel"]
 author = "Jim Ancona"

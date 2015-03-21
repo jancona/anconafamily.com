@@ -1,6 +1,5 @@
 +++
 date = "2015-03-20T10:10:22-04:00"
-draft = true
 title = "Ehrwald, Zugspitze and the Tirol"
 categories = ["travel"]
 author = "Jim Ancona"
