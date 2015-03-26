@@ -40,5 +40,5 @@ friend Mee'Sha.
 
 ## Thursday April 30
 
-Drive to [Ehrwald](/travel/Ehrwald).
+Drive to [Reutte](/travel/Reutte).
 

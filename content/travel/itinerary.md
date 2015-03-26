@@ -142,7 +142,7 @@ Four weeks, starting in Rome, departing from Nice.
 <td align="left">Day 17</td>
 <td align="left">April 30</td>
 <td align="left">Thursday</td>
-<td align="left">Drive to <a href="/travel/Ehrwald">Ehrwald, Austria</a></td>
+<td align="left">Drive to <a href="/travel/Reutte">Reutte, Austria</a></td>
 </tr>
 
 <tr>

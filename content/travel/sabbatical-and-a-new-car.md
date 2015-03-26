@@ -12,10 +12,10 @@ service. Around the holidays last December it occurred to me that mine
 was coming up and I ought to start thinking about how to spend it.
 
 Anne and I have done only a little overseas travel. We went to Vienna, Budapest and
-Prague in 2000 and a had a
+Prague in 2000, had a
 [long weekend in London](/gallery/main.php?g2_itemId=7864)
-right before I started at
-Constant Contact in 2005. But having a month seems like a perfect chance to do
+right before I started at Constant Contact in 2005 and went to Paris
+for a week in 2013. But having a month seems like a perfect chance to do
 some European travel before retirement. Anne has been at least
 temporarily retired from paid employment for the last couple of years,
 so we don't have to worry about time off for her.

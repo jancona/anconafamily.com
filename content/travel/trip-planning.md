@@ -48,7 +48,7 @@ Day 13 | Drive to [Rothenburg](/travel/Rothenburg-Bacharach), Night Watchman's t
 Day 14 | Rothenburg. Drive to Bacharach.
 Day 15 | Rhine Cruise
 Day 16 | Mosel Valley drive, Burg Eltz
-Day 17 | Drive to [Ehrwald, Austria](/travel/Ehrwald)
+Day 17 | Drive to [Reutte, Austria](/travel/Reutte)
 Day 18 | Ludwig's castles, Füssen, etc.
 Day 19 | Zugspitze, some Alpine hiking
 Day 20 | Drive to the [Dolomites](/travel/Bolzano) in northern Italy
