@@ -16,7 +16,9 @@ Arrive after driving from Reutte. We're staying at
 [South Tyrol Museum of Archaeology](http://www.iceman.it/) in
 Bolzano. Scenic drive, perhaps the
 [Abbreviated Dolomite Loop Drive](https://books.google.com/books?id=IEvnBAAAQBAJ&lpg=PT368&ots=5Jes6exLes&dq=abbreviated%20dolomite%20loop%20drive&pg=PT368#v=onepage&q=abbreviated%20dolomite%20loop%20drive&f=false)
-in the Rick Steves Italy book.
+in the Rick Steves Italy book, or one of
+[these](http://www.touring-italy.net/search/regions.php?region=Trentino-Alto-Adige).
+Recommended road: Grande Strada delle Dolomiti – SS 48.
 
 ## Tuesday May 5
 
