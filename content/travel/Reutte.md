@@ -21,7 +21,9 @@ friend Mee'sha.
 ## Sunday May 3
 Drive to [Bolzano, Italy](/travel/Bolzano). The shortest route is over Brenner Pass. We
 may want to consider using Reschen Pass further west.
-[Alternate routes](http://www.alpineroads.com/tyrol.php).
+[Route towards](http://www.ultimatedrives.net/top-10-roads/details.php?route_ID=40005) Reschen Pass.
+[Alternate routes](http://www.alpineroads.com/tyrol.php). Also see
+[Stelvio Pass](http://www.ultimatedrives.net/top-10-roads/details.php?route_ID=30003).
 
 If we do take the Brenner Pass route, we may want to stop at
 [Reifenstein Castle](http://goo.gl/maps/g1GzF) in Sterzing, just over the border in Italy.

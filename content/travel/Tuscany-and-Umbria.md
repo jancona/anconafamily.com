@@ -24,7 +24,7 @@ Montepulciano, Montalcino.
 
 See scenic drives
 [here](http://www.touring-italy.net/search/regions.php?region=Toscana).
-Scenic route: Strada Chiantigiana – SR-222 from Siena to Florence.
+Scenic route: [Via Chiantigiana – SR-222](http://www.ultimatedrives.net/top-10-roads/details.php?route_ID=60073).
 Perhaps head towards
 [northern Lazio](http://www.arttrav.com/it/northern-lazio-italy-without-tourists/)
 at some point.

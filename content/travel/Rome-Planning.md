@@ -22,11 +22,14 @@ We are staying at [Hotel Paba](http://www.hotelpaba.com/dove-siamo/), about a
 [15 minute walk](https://maps.google.com/maps?saddr=Termini,+Rome,+Italy&daddr=Via+Cavour,+266,+00184+Roma,+Italy&hl=en-US&sll=41.893626,12.489727&sspn=0.042871,0.074587&geocode=Fc1ZfwIdBMe-ACE40E6Bc9qzMilVR0Xco2EvEzE40E6Bc9qzMg%3BFfo-fwId_5O-ACnBFXRfsWEvEzEFZf5SR00YRg&oq=Rome+Ter&gl=US&dirflg=w&mra=ltm&t=m&z=16)
 from Rome Termini.
 
+At 7 pm:
+[Twilight City Stroll & Gelato-Tasting](https://www.walksofitaly.com/rome-tours/welcome-rome-walking-tours),
+starting at Spanish Steps [map](http://goo.gl/maps/Qm1ZH).
+
 ## Wednesday April 15
 
 [Papal Audience](http://www.papalaudience.org/): 10:30 am (arrive early for a good seat).
 [Emperors & Gladiators Walk?](http://www.italy.artviva.com/tours/273/): 1:45 pm
-[Original Rome Walk?](http://www.italy.artviva.com/tours/10/): 7:00 pm
 
 ## Thursday April 16
 
@@ -35,8 +38,8 @@ am. [How to get there.](http://www.ostiaantica.beniculturali.it/en/come-arrivare
 audio tour or possibly hire guide there.
 
 ## Friday April 17
-
-Borghese Gallery (reservations required) and the Capitoline Museums?
+Capitoline Museums?
+[Borghese Gallery](http://www.galleriaborghese.it/borghese/it/default.htm) (reservations at 5pm) [map](http://goo.gl/maps/PrB1m). 
 
 ## Saturday April 18
 
