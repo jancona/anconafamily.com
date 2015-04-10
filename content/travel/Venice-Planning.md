@@ -9,7 +9,7 @@ author = "Jim Ancona"
 # Tentative Schedule
 ## Tuesday April 21
 
-Arrive late morning. We're staying at the
+Arrive at 1:35 pm. We're staying at the
 [Hotel Pensione Guerrato](http://www.pensioneguerrato.it/).
 To get there we'll take the vaporetto (ferry) route 1 from the train
 station to Rialto Mercato. From there it's a one minute walk to the

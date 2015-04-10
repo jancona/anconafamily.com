@@ -22,6 +22,9 @@ We are staying at [Hotel Paba](http://www.hotelpaba.com/dove-siamo/), about a
 [15 minute walk](https://maps.google.com/maps?saddr=Termini,+Rome,+Italy&daddr=Via+Cavour,+266,+00184+Roma,+Italy&hl=en-US&sll=41.893626,12.489727&sspn=0.042871,0.074587&geocode=Fc1ZfwIdBMe-ACE40E6Bc9qzMilVR0Xco2EvEzE40E6Bc9qzMg%3BFfo-fwId_5O-ACnBFXRfsWEvEzEFZf5SR00YRg&oq=Rome+Ter&gl=US&dirflg=w&mra=ltm&t=m&z=16)
 from Rome Termini.
 
+Pick up Papal Audience tickets between 4:30 and 6:15 at the Parish
+Office to the right of Santa Susanna Church [map](https://goo.gl/maps/ApM6N).
+
 At 7 pm:
 [Twilight City Stroll & Gelato-Tasting](https://www.walksofitaly.com/rome-tours/welcome-rome-walking-tours),
 starting at Spanish Steps [map](http://goo.gl/maps/Qm1ZH).
@@ -38,12 +41,13 @@ am. [How to get there.](http://www.ostiaantica.beniculturali.it/en/come-arrivare
 audio tour or possibly hire guide there.
 
 ## Friday April 17
-Capitoline Museums?
+[Vatican Museaums and Sistine Chapel tour](https://www.walksofitaly.com/vatican-tours/pristine-sistine-chapel-tour)
+at 7:35am.
 [Borghese Gallery](http://www.galleriaborghese.it/borghese/it/default.htm) (reservations at 5pm) [map](http://goo.gl/maps/PrB1m). 
 
 ## Saturday April 18
 
-* Depart for Florence early to mid-morning
+* Depart for Florence, 9:50 am, Termini Station
 
 # Places to go and things to do
 
