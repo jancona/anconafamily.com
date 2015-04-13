@@ -36,11 +36,11 @@
 
   {{ partial "syntaxhighlight.html" . }}
 
-  {{ if (.Params.lightbox) or (isset .Params "gallery_id") }}
+  {{ if or (.Params.lightbox) (isset .Params "gallery_id") }}
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   {{ end }}
 
-  {{if isset .Params "gallery_id" }}
+  {{ if isset .Params "gallery_id" }}
     <link href="{{ .Site.BaseUrl }}/css/nano/nanogallery.css" rel="stylesheet" type="text/css">
     <script src="{{ .Site.BaseUrl }}/js/vendor/jquery.nanogallery.js"></script>
   {{ end }}
