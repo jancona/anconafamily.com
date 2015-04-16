@@ -59,7 +59,61 @@ there. The girls got off at the next stop.
 We made it back to our hotel by 8. Anne was asleep by 8:30--I managed
 to stay awake until almost 10.
 
-*Days 2 and 3 to follow soon!*
+# Day 2
 
+We were up early to head to the Vatican for the Papal Audience, only
+to find no water in the bathroom. Well, not quite *no* water, there
+was a bit dribbling from the faucet, so I was able to do a basic
+clean-up before heading out. We were too early for breakfast in the
+hotel, so we stopped at a cafe down the street for a sandwich and
+Caffe Americano.
 
+The trip to the Vatican via the Metro was uneventful other than
+packed trains, which necessitated people left on the platforms
+leaning on the doors to force them closed on the hoardes in the train.
 
+The experience in St. Peter's Square was *interesting*. It had a
+certain resemblance to a sporting event. A marching band started
+things off, followed by the color guard twirling flags. Then they
+started announcing the names of the many pilgramage groups from all
+over the world, each announcement followed by a cheer from the group
+in question. It reminded me of when they list the school and
+church groups on the center field scoreboard at Fenway.
+
+The real action started when the Popemobile got rolling--thousands of
+people trying to catch a glimpse of Il Papa. One option was to watch
+the four Jumbotrons. But if that wasn't good enough, the alternative
+was to stand on your chair. There were elderly nuns standing
+on the rickety folding chairs. I don't think I saw any of them holding
+iPhones on selfie sticks, but everyone else had one. Those elderly
+nuns and us may be the only people left in Rome without them. They are
+the prime piece of merchandise for every sidewalk vendor in the
+city. One can't walk 20 feet in any area frequented by tourists
+without someone trying to sell you one.
+
+The pope then gave a short homily in Italian, followed by greetings,
+also in Italian, which were translated into many languages--I caught
+English, French, Spanish, Portugese, German, Arabic and Polish, and I
+think I missed a couple. Some of the major languages also rated a
+translated synopsis of the homily. Each language group cheered its
+blessing. The ceremony concluded with the Lord's Prayer in
+Latin. (I didn't hear any Latin-speakers cheering after that.)
+
+We headed back to our hotel and got lunch at
+[Ai Tre Scalini](http://colosseoorg.wix.com/aitrescalini), a nice
+little restaurant in Monti, the neighborhood across from our
+hotel. The hotel wifi was finally working, so we caught up a bit on
+things before heading off again. We headed out a bit early before our
+rescheduled tour at 5, with the intention of visiting
+[Santa Maria del Popolo](http://en.wikipedia.org/wiki/Basilica_of_Santa_Maria_del_Popolo). We
+arrived there in plenty of time but visited the wrong chapels first,
+then got shooed from the church because Mass was starting and so
+missed the two Caravaggios we were there to see. Oh well.
+
+The walking tour was fun. It started at the Spanish steps and covered
+many sites in central Rome, including Trevi Fountain, the Pantheon,
+and Piazza Navona. Our guide, Andrea, recommended a restaurant in the
+Jewish Ghetto for dinner. We particularly enjoyed the fried artichoke
+appetizer.  
+
+*Day 3 to follow soon!*
