@@ -1,6 +1,6 @@
 +++
 date = "2015-04-16T15:51:19+02:00"
-title = "Rome Days 1, 2 and 3"
+title = "Rome Days 1 and 2"
 categories = ["travel"]
 author = "Jim Ancona"
 gallery_id = 6138343864072247265
@@ -116,4 +116,4 @@ and Piazza Navona. Our guide, Andrea, recommended a restaurant in the
 Jewish Ghetto for dinner. We particularly enjoyed the fried artichoke
 appetizer.  
 
-*Day 3 to follow soon!*
+Days 3 and 4 are [here](/travel/Rome-Days-3-and-4).
