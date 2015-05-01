@@ -7,7 +7,7 @@ gallery_id = 6142474766772491153
 +++
 
 # Sunday: Munich to Rothenburg
-After another good breakfast we bid "Auf Weidersehen" to Munich and
+After another good breakfast we bid "Auf Wiedersehen" to Munich and
 Hotel Uhland. This hotel was the highlight of our trip so far, with a
 great breakfast, friendly and helpful staff and convenient
 services. (They did a load of laundry for us for 12 Euro. We spent 8
