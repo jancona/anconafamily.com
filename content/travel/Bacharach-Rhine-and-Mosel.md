@@ -28,7 +28,7 @@ Anne was feeling a bit under the weather. We made an early night of it.
 # Tuesday: The Rhine
 
 Another good breakfast and the day dawned sunny and cool, with a north
-wind. We headed crossed the street in front of our hotel to the Rhine
+wind. We crossed the street in front of our hotel to the Rhine
 waterfront, where we bought a ticket for the river ferry. We chose a
 round trip to Sankt Goar, just a few miles north (down river). It
 would be about a 40 minute trip there, then we could spend a couple of
