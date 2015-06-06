@@ -21,11 +21,11 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
   <![endif]-->
 
-  <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/redlounge.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/redlounge.css">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link href='//fonts.googleapis.com/css?family=Raleway:400,200,100,700,300,500,600,800' rel='stylesheet' type='text/css'>
   <link href='//fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/local.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/local.css">
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
@@ -41,13 +41,13 @@
   {{ end }}
 
   {{ if isset .Params "gallery_id" }}
-    <link href="{{ .Site.BaseUrl }}/css/nano/nanogallery.css" rel="stylesheet" type="text/css">
-    <script src="{{ .Site.BaseUrl }}/js/vendor/jquery.nanogallery.js"></script>
+    <link href="{{ .Site.BaseURL }}/css/nano/nanogallery.css" rel="stylesheet" type="text/css">
+    <script src="{{ .Site.BaseURL }}/js/vendor/jquery.nanogallery.js"></script>
   {{ end }}
 
   {{ if .Params.lightbox }}
-  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseUrl }}/css/lightbox.css">
-  <script src="{{ .Site.BaseUrl }}/js/lightbox.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/lightbox.css">
+  <script src="{{ .Site.BaseURL }}/js/lightbox.min.js"></script>
   {{ end }}
 
   {{ if .Site.Params.categoriescss }}
