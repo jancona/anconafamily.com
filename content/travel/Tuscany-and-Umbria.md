@@ -3,7 +3,7 @@ date = "2015-05-12T15:05:10-04:00"
 title = "Tuscany and Umbria"
 categories = ["travel"]
 author = "Jim Ancona"
-gallery_id = 6146236214869327601
+gallery_id = 6220172256131584897
 +++
 
 # Tuesday: Arrival at La Montalla
@@ -158,9 +158,7 @@ to many of the places we would have liked to see because they were
 just too far away.
 
 While I liked staying in one place for four nights, if/when we go to
-Tuscany again, I think I'd plan to stay two or three 
+Tuscany again, I think I'd plan to stay two or three
 nights in a few strategically located towns with side trips into the
 nearby countryside. An agriturismo that offered dinner or an apartment
 with kitchen facilities might be another option.
-
-

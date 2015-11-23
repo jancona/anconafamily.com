@@ -3,7 +3,7 @@ date = "2015-05-01T07:42:09+02:00"
 title = "The Alps"
 categories = ["travel"]
 author = "Jim Ancona"
-gallery_id = 6143633502693383585
+gallery_id = 6220167450545299521
 +++
 
 # Thursday: Off to the Alps
@@ -79,17 +79,17 @@ artwork is original. They went directly from being lived in to being
 tourist attractions without any intermediate step. The tour was about
 a half an hour and entertaining, but without much depth.
 
-After the tour we headed to a nearby [brewpub](http://www.schlossbrauhaus.de/) 
+After the tour we headed to a nearby [brewpub](http://www.schlossbrauhaus.de/)
 for dinner before heading
 back to Reutte. This dinner broke my streak of every dinner since we
 entered Germany including at least one form of cabbage. Even the Greek
 restaurant in Bacaharach had included slaw in the salad! No doubt
 there is still time to get another streak going.
 
-# Saturday: Another Castle and the Highline 
+# Saturday: Another Castle and the Highline
 
 Saturday dawned gray and drizzly again. Since there was no sense in
-heading up the Zugspitze, we didn't feel bad about heading back to 
+heading up the Zugspitze, we didn't feel bad about heading back to
 castle number two. Hohenschwangau is very nice, but it took Ludwig's
 eccentric genius to come up with the over-the-top Neuschwanstein. It
 was only one-third complete when he died, and he only lived in it for
@@ -99,7 +99,7 @@ After grabbing lunch at the same brewpub where we had dinner last
 night, it was looking a bit brighter out, so we headed back to Reutte
 to the Ehrenberg Castle complex, which includes the ruins of three
 medieval castles, along with a museum (aimed mostly at kids) and the
-[Highline](http://www.highline179.com/en/), a suspension footbridge that 
+[Highline](http://www.highline179.com/en/), a suspension footbridge that
 runs high above the valley between two of the castles.
 
 It was a steep hike up to the Highline. When we got there we found
@@ -123,5 +123,3 @@ was money to be made in taxing and controling that trade.
 
 By the time we got back down we were pretty tired, so we got dinner
 and made an early night of it. Tommorrow we're off to Italy!
-
-

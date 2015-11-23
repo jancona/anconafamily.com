@@ -3,7 +3,7 @@ date = "2015-04-27T19:28:45+02:00"
 title = "Romantic Road and Rothenburg"
 categories = ["travel"]
 author = "Jim Ancona"
-gallery_id = 6142474766772491153
+gallery_id = 6220008994121566945
 +++
 
 # Sunday: Munich to Rothenburg
@@ -20,7 +20,7 @@ to select a scenic route to Augsburg, where we picked up the
 a scenic route that wends its way from Würzburg down to Füssen in the
 Alps.  Here's a
 [map](https://www.google.com/maps/d/viewer?mid=zcH7qU2CLLP8.kr76zsSEji7k)
-of the Romantische Straße--it's the North-South red line. We 
+of the Romantische Straße--it's the North-South red line. We
 traveled the middle part of it, from Augsburg up to Rothenburg (just
 west of Nürnburg, you have to zoom in to see it). The
 drive to Augsburg was pleasant--a short stretch on the autobahn,
@@ -79,7 +79,7 @@ buildings' paintwork. Presumably they also work on BMW's five centuries
 later.
 
 Here's a picture of the street I came down (in my 3 day old car)!
-![Alter Keller, Rothenburg](https://lh3.googleusercontent.com/-AmCsVBp5yfM/VT9AxYysmRI/AAAAAAAACNM/LRM6b19vytE/s800/_DSC0323.jpg)
+![Alter Keller, Rothenburg](https://lh3.googleusercontent.com/-Nsiwy-cdh5Q/VlHqG_KCYGI/AAAAAAAAYoQ/2qo_US2D2QY/s800-Ic42/_DSC0323.jpg)
 
 After making it through there without scrapes, it was a relative easy
 trip to around the block to the correct courtyard.

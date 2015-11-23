@@ -3,7 +3,7 @@ date = "2015-04-29T20:44:46+02:00"
 title = "Bacharach, the Rhine and the Mosel"
 categories = ["travel"]
 author = "Jim Ancona"
-gallery_id = 6142814816870705825
+gallery_id = 6220011787002365009
 +++
 
 # Monday: Arrive from Rothenburg
@@ -59,7 +59,7 @@ low on the river side, which was presumably easier to defend--no siege
 engines and masses of archers out there.
 
 The boat ride was *cold*. I ignored my number one rule of boats--that
-it's always colder than you think on the water--and paid the price. The north wind 
+it's always colder than you think on the water--and paid the price. The north wind
 was blowing in our faces, and we wanted to stay on deck to see the
 sights, so we just tried to stay out of the worst of it. Just before
 we got to St. Goar was the famous Loreley. It's a big cliff at a
@@ -141,5 +141,3 @@ found both of them!
 Back in Bacharach, we wandered up to the ruined medieval chapel near
 the center of town, then found a nice dinner at the Jägerstube, a
 restaurant near our hotel.
-
-

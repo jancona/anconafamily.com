@@ -3,7 +3,7 @@ date = "2015-04-25T15:39:52+02:00"
 title = "Munich and a New Car"
 categories = ["travel"]
 author = "Jim Ancona"
-gallery_id = 6141350727546211729
+gallery_id = 6219997765316061505
 
 +++
 # Day 1: Thursday

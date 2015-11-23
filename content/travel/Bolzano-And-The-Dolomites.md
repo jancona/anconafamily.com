@@ -3,7 +3,7 @@ date = "2015-05-04T20:36:06+02:00"
 title = "Bolzano And The Dolomites"
 categories = ["travel"]
 author = "Jim Ancona"
-gallery_id = 6145489351549741201
+gallery_id = 6220169575959126737
 +++
 # Sunday: Ötzi
 
@@ -47,9 +47,9 @@ interested, the [museum site](http://www.iceman.it/) and the
 [Ötzi Wikipedia page](http://en.wikipedia.org/wiki/%C3%96tzi) have more
 information.
 
-![Ötzi the Iceman](https://lh3.googleusercontent.com/-BMIiIHtyOqk/VVHzd0AL-pI/AAAAAAAACjc/hCx6UBYPK2I/s1200/IMG_20150503_170411.jpg)
+![Ötzi the Iceman](https://lh3.googleusercontent.com/-6mPxn579gns/VlJ7RoNusuI/AAAAAAAAYwE/t_O6PT5gumY/s1200-Ic42/IMG_20150503_170411.jpg)
 
-The museum exihibits the actual mummy (through a window into a
+The museum exhibits the actual mummy (through a window into a
 climate-controlled chamber and which you're not allowed to
 photograph), as well as most of the clothing and equipment, and the
 reconstruction you see above. We really enjoyed our visit!
