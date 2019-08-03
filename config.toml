@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Anne & Jim Ancona"
 disqusShortname = "anconafamily"
 copyright = "&copy; 1999&endash;2015 Jim Ancona"
+#theme = "Elfaseo"
+theme = "redlounge"
 
 [taxonomies]
   tag = "tags"
@@ -25,10 +27,6 @@ copyright = "&copy; 1999&endash;2015 Jim Ancona"
     pre = "<i class='fa fa-facebook'></i>"
     url = "https://www.facebook.com/jim.ancona"
     identifier = "facebook"
-[[menu.social]]
-    pre = "<i class='fa fa-google-plus'></i>"
-    url = "https://plus.google.com/u/0/+JimAncona/posts"
-    identifier = "google-plus"
 [[menu.social]]
     pre = "<i class='fa fa-linkedin'></i>"
     url = "https://www.linkedin.com/in/jancona"
