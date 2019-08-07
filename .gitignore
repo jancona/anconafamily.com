@@ -1,2 +1,5 @@
-public/
 .#*
+.DS_Store
+public/
+# images hosted at Backblaze B2
+static/img

@@ -1,0 +1,8 @@
+<div id="nanogallery2"
+  data-nanogallery2 = '{
+      {{ if .Get "itemsBaseURL" }}"itemsBaseURL":    "{{.Get "itemsBaseURL"}}",{{ end }}
+      "thumbnailHeight": {{ if .Get "thumbnailHeight" }}{{.Get "thumbnailHeight"}}{{ else }}"auto"{{ end }},
+      "thumbnailWidth":  {{ if .Get "thumbnailWidth" }}{{.Get "thumbnailWidth"}}{{ else }}"auto"{{ end }}
+    }' >
+    {{.Inner}}
+</div>

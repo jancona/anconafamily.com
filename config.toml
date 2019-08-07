@@ -5,6 +5,7 @@ disqusShortname = "anconafamily"
 copyright = "&copy; 1999&endash;2015 Jim Ancona"
 #theme = "Elfaseo"
 theme = "redlounge"
+enableInlineShortcodes = true
 
 [taxonomies]
   tag = "tags"
