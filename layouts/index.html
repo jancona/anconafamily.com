@@ -9,7 +9,7 @@
 
           <div class="posts">
             {{ $Site := .Site }}
-			{{ range .Site.Pages }}
+			{{ range .Site.RegularPages }}
 			{{ if not (in .Params.categories "front")}}
             <section  class="post">
                 <header class="post-header">
